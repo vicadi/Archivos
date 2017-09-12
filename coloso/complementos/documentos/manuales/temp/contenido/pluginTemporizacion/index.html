@@ -1,0 +1,168 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>Plugin de Temporización</title>
+
+<link rel="stylesheet" href="../estilo.css"></head>
+<body topmargin="0">
+<table align="center" border="0" height="95" width="478">
+<tbody>
+<tr>
+<td height="23">
+<p class="Estilo4" align="left">Plugin de
+Temporización </p>
+</td>
+</tr>
+<tr class="TextoNormal TextoNormal TextoNormal TextoNormal">
+<td height="66" valign="top" width="472">
+<p class="TextoNormal">&nbsp;</p>
+<span class="TextoNormal">El plugin de
+Temporización&nbsp; es
+parte de la solución UML+ para la realización de
+diagramas según la especificación UML 2.0, este diagrama genera
+archivos con la extensión ".dte". &nbsp;Este diagrama surge como
+una
+extensión a los demás diagramas de interacción en el cambio de la
+especificación 1.x a 2.0 <br>
+<br>
+Mediante
+el Diagrama de Temporización&nbsp;
+se pueden modelar los tiempos precisos en que uno o mas objetos
+&nbsp;realizan &nbsp;el envio de mensajes. Esto es
+particularmente &uacute;til
+a la hora de &nbsp;realizar la especificación de protocolos,
+sistemas
+dependientes de respuestas externas temporizadas, entre otras.</span><span class="TextoNormal"></span><br class="TextoNormal">
+<br class="TextoNormal">
+<span class="TextoNormal">Los elementos propios de este
+diagrama son:<br>
+<br>
+</span>
+<ul>
+<li>Temporizador</li>
+<li>Sistema </li>
+</ul>
+<span class="TextoNormal"><br>
+</span>
+<span style="font-weight: bold;">Temporizador</span><span class="TextoNormal"><span style="font-weight: bold;"></span><br>
+<br>
+El temporizador es el &uacute;nico y principal elemento de este diagrama.
+Muestra &nbsp;la l&iacute;nea de tiempo de un objeto &nbsp;y el
+momento en que
+un determinado mensaje (a través de un método) es invocado. Para crear
+un Temporizador se debe seleccionar el icono en forma de segmento
+escalonado de l&iacute;nea roja.<br>
+<br>
+</span><br>
+<div class="Imagen" style="text-align: center;">
+  <p><img src="termporizador1.png" alt=""></p>
+  <p>Figura 1. Creaci&oacute;n de un temporizador<br>
+    </p>
+</div>
+<br>
+<br>
+Se
+debe suministrar un nombre y adicionalmente para crear el
+&nbsp;Temporizador se debe seleccionar una clase de la cual se
+referenciarán&nbsp; los estados. Para esto al menos un Diagrama de
+Comunicación o de Secuencia debe estar activo en el marco de expresión.
+&nbsp; <br>
+<br>
+<br>
+<div class="Imagen" style="text-align: center;">
+  <p><img src="termporizador2.png" alt=""></p>
+  <p>Figura 2. Elecci&oacute;n de la clase base</p>
+</div>
+<br>
+<br>
+<br>
+Una
+vez se selecciona la Clase asociada (cualquiera de los elementos de los
+otros diagramas se pueden tomar com plantilla), se deben seleccionar
+los estados para los cuales se modelará el tiempo de activación.<br>
+<br>
+El
+tiempo de activación aparece en la segunda columna del
+temporizador&nbsp; que indica el tiempo entre un mensaje, para que el siguiente
+mensaje sea llamado y permite mediante doble click, ajustar el valor para el
+disparo de la función. Por último de encuentran las etiquetas para los
+eventos.<br>
+<br>
+<br>
+<div class="Imagen" style="text-align: center;">
+  <p><img src="termporizador3.png" alt=""></p>
+  <p>Figura 3. Operaciones del temporizador<br>
+    </p>
+</div>
+<br>
+<br>
+Si
+se desea mediante la pestaña de Operaciones se pueden agregar
+&nbsp;mas
+a la clase seleccionada, cambio que se verá igualemente en el diagrama
+del cual provenga. &nbsp;Para este caso los eventos se han nombrado
+EV1, EV2 y EV3 y se dan con intevalos de 5,10 y 15 unidades de tiempo.<br>
+<br>
+<br>
+<br>
+<br>
+<div class="Imagen" style="text-align: center;">
+  <p><img src="termporizador4.png" alt=""></p>
+  <p>Figura 4. Representaci&oacute;n del temporizador<br>
+    </p>
+</div>
+<br>
+<br>
+<br>
+La
+gr&aacute;fica de la Figura 4 representa la forma cartesiana/Lineal del Temporizador,
+también es posible visualizarlo como áreas, si se &nbsp;quita la
+opción
+"Forma Cartesiana/Lineal".<br>
+<br>
+<br>
+<br>
+<div class="Imagen" style="text-align: center;">
+  <p><img src="termporizador5.png" alt=""></p>
+  <p>Figura 5. Representaci&oacute;n de operaciones<br>
+    </p>
+</div>
+<br>
+<br>
+<span class="TextoNormal"><span style="font-weight: bold;">Sistema</span></span><span style="font-weight: bold;"></span><span class="TextoNormal"><span style="font-weight: bold;"></span><br>
+<br>
+El sistema en este caso actúa de la misma manera que en otros
+plugins, como un medio para estructurar el diagrama desde el punto de
+vista sistémico. Para crear &nbsp;un sistema se debe seleccionar el
+icono en forma de carpeta azul de la barra específica del marco.<br>
+<br>
+<br>
+<br>
+</span>
+<div class="Imagen" style="text-align: center;">
+  <p><img src="Sistema1.png" alt=""></p>
+  <p>Figura 6. Creaci&oacute;n de sistema<br>
+    </p>
+</div>
+<span class="TextoNormal"><br>
+<br>
+<br>
+El
+sistema permite configurar los datos básicos, la ubicación de la
+etiqueta del artefacto, un perfil asociado y las propiedades
+visibilidad y si el contenedor es editable.<br>
+<br>
+<br>
+</span>
+<div class="Imagen" style="text-align: center;">
+  <p><img src="Sistema2.png" alt=""></p>
+  <p>Figura 7. Datos de creaci&oacute;n de sistema<br>
+    </p>
+</div>
+<span class="TextoNormal"><br>
+</span><br>
+<br>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+</body></html>

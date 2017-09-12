@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- regla de ReglaDeTransicionDeActividad -->
+<relaciones>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.agrupacion.Frame</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.actividades.Actividad</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.agrupacion.Frame</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoFinal</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.actividades.Actividad</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.agrupacion.Frame</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.actividades.Actividad</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.actividades.Actividad</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.actividades.Actividad</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.actividades.Arreglo</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.actividades.Actividad</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.BarraDeSincronizacion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.actividades.Actividad</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoDeDecision</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.actividades.Actividad</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoFinal</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.actividades.Actividad</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.interacciones.Objeto</objetivo>
+  <tipoDeObjetivo>256</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.actividades.Arreglo</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.actividades.Actividad</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.actividades.Arreglo</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoFinal</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.BarraDeSincronizacion</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.actividades.Actividad</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.BarraDeSincronizacion</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoDeDecision</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoDeDecision</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.actividades.Actividad</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoDeDecision</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.BarraDeSincronizacion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoDeDecision</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoFinal</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoInicial</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.agrupacion.Frame</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoInicial</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.actividades.Actividad</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.interacciones.Objeto</fuente>
+  <tipoDeFuente>256</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.actividades.Actividad</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.interacciones.Objeto</fuente>
+  <tipoDeFuente>256</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.actividades.Arreglo</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+</relaciones>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- regla de ReglaDeInfluencia -->
+<relaciones>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Manejador</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.informacionales.capas.negocio.Valor</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Manejador</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Manejador</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Manejador</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Valoracion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Manejador</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Objetivo</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Manejador</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Requerimiento</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Manejador</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Restriccion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Manejador</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Principio</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Valoracion</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.informacionales.capas.negocio.Valor</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Valoracion</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Manejador</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Valoracion</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Valoracion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Valoracion</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Objetivo</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Valoracion</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Requerimiento</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Valoracion</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Restriccion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Valoracion</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Principio</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Objetivo</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.informacionales.capas.negocio.Valor</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Objetivo</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Manejador</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Objetivo</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Valoracion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Objetivo</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Objetivo</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Objetivo</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Requerimiento</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Objetivo</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Restriccion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Objetivo</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Principio</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Requerimiento</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.informacionales.capas.negocio.Valor</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Requerimiento</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Manejador</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Requerimiento</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Valoracion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Requerimiento</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Objetivo</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Requerimiento</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Requerimiento</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Requerimiento</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Restriccion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Requerimiento</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Principio</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Restriccion</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.informacionales.capas.negocio.Valor</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Restriccion</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Manejador</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Restriccion</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Valoracion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Restriccion</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Objetivo</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Restriccion</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Requerimiento</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Restriccion</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Restriccion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Restriccion</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Principio</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Principio</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.informacionales.capas.negocio.Valor</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Principio</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Manejador</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Principio</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Valoracion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Principio</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Objetivo</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Principio</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Requerimiento</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Principio</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Restriccion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Principio</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Principio</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+</relaciones>

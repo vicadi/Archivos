@@ -1,0 +1,283 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>Diagrama de Marcos</title>
+
+<link rel="stylesheet" href="../estilo.css"></head>
+<body topmargin="0">
+<table align="center" border="0" height="95" width="478">
+<tbody>
+<tr>
+<td height="23">
+<p class="Estilo4" align="left">Diagrama de
+Marcos</p></td>
+</tr>
+<tr class="TextoNormal">
+<td height="66" width="472">
+<p class="TextoNormal">&nbsp;</p>
+<p class="TextoNormal">Mediante este diagrama es posible
+&nbsp;representar o diseñar&nbsp; un algoritmo estructurado de
+manera
+gráfica. El plugin de cajas hace un fuerte uso de FG, el framework
+gráfico que sustenta otros plugin gráficos, incluidos los de UML+.</p>
+El plugin provee los
+siguientes elementos para modelar el algoritmo:<br class="TextoNormal">
+<br class="TextoNormal">
+<ul>
+<li>Contenedor</li>
+<li>Marco Sentencia</li>
+<li>Marco if</li>
+<li>Marco if - else</li>
+<li>Marco while</li>
+<li>Marco do while</li>
+<li>Marco switch</li>
+<li>Marco case</li>
+<li>Marco default</li>
+<li>Marco for</li>
+<li>Marco try catch</li>
+</ul>
+Estos mismos elementos están presentes en lenguajes estructurados y
+notaciones de pseudocódigo, por lo que los elementos del diagrama son familiares para cualquiera que empiece a entender dichos lenguajes o ya tenga experiencia en &eacute;stos.
+<p style="font-weight: bold;" class="TextoNormal">
+Contenedor</p>
+<p class="TextoNormal">Este
+elemento es la base del diagrama, puede ser visto como una función
+caracterizada por una firma. El contenedor es necesario para contener
+a todos los otros elementos, ya que es el único que se puede generar
+directamente sobre el diagrama. Para crear un contenedor se debe
+seleccionar&nbsp; el icono en forma de caja lila con dos cajas
+internas
+de la barra específica del marco.</p>
+<span style="font-family: Arial,Helvetica,sans-serif;"></span>
+<p style="text-align: center;" class="TextoNormal">&nbsp;<span class="Imagen"><img src="contenedor1.png" alt=""></span></p>
+<p style="text-align: center;" class="Imagen">Figura 1. Creaci&oacute;n de un contenedor</p>
+El contenedor permite&nbsp; especificar una firma, que puede ser
+caracterizada como f(x),&nbsp; &nbsp;una funci&oacute;n en un lenguaje
+estructurado y una funci&oacute;n asociada a una clase en un lenguaje O.O. <br>
+<br>
+La firma se puede digitar directamente o seleccionar de algunas que
+vienen por defecto.
+<p style="text-align: center;" class="Imagen"><img src="contenedor2.png" alt=""></p>
+<p style="text-align: center;" class="Imagen">Figura 2. Caracterizaci&oacute;n de un servicio</p>
+Adicionalmente se puede caracterizar el contenedor por un perfil de
+Ingeniero de Programaci&oacute;n o Arquitecto.
+<p style="font-weight: bold;" class="TextoNormal" align="center">Marco Sentencia</p>
+<p class="TextoNormal" align="center">Las
+sentencias permiten realizar asignaciones, llamadas a operaciones,
+creaci&oacute;n de variables, aserciones y todas las afirmaciones necesarias
+para un algoritmo estructurado. Para agregar una sentencia se debe
+seleccionar el icono en forma de rect&aacute;ngulo gris de la barra especifica
+del marco.</p>
+<p style="text-align: center;" class="Imagen"><img src="sentencia1.png" alt=""></p>
+<p style="text-align: center;" class="Imagen">Figura 3. Creaci&oacute;n de un marco sentencia</p>
+<p class="TextoNormal" align="center">Al agregar
+una sentencia esta será previsualizada &nbsp;dentro del contenedor.
+De esta es posible configurar la sentencia en s&iacute; y su ubicaci&oacute;n.
+&nbsp;Existen tambi&eacute;n algunas sentencias simples de creación de
+variables como plantilla. </p>
+<p class="TextoNormal" align="center"></p>
+<p style="text-align: center;" class="Imagen"><img src="sentencia2.png" alt=""></p>
+<p style="text-align: center;" class="Imagen">Figura 4. Datos de creaci&oacute;n de una sentencia</p>
+<p class="TextoNormal" align="center"><span style="font-weight: bold;">Marco</span> <span style="font-weight: bold;">Ifexcepción</span></p>
+<p class="TextoNormal" align="center">Mediante
+este marco se puede expresar una pregunta que necesariamente podrá se
+evaluada como una sentencia booleana. Para crear un if se selecciona el
+icono en forma de rect&aacute;ngulo naranja enmarcado.</p>
+<p></p>
+<p style="text-align: center;" class="Imagen"><img src="if1.png" alt=""></p>
+<p style="text-align: center;" class="Imagen">Figura 5. Creaci&oacute;n de un marco If</p>
+<p class="TextoNormal" align="center">La única
+opci&oacute;n de configuraci&oacute;n es la pregunta en si, para este caso se ha
+tomado una simple comparaci&oacute;n numérica basada en los parámetros de
+&nbsp;la firma del contenedor.</p>
+<p  class="Imagen"><img src="if2.png" alt=""></p>
+<p  class="Imagen">Figura 6. Ingreso de la pregunta en el marco If</p>
+<p class="TextoNormal" align="center">Si una
+&nbsp;pregunta eval&uacute;a a verdadero se evaluarán los marcos dentro del if.
+Dicho espacio funciona como un contenedor y puede tener
+&nbsp;sentencias otros if y todo tipo de marcos al interior.</p>
+<p class="TextoNormal" align="center"></p>
+<div class="Imagen" style="text-align: center;">
+  <p><img src="if3.png" alt=""></p>
+  <p>Figura 7. Representaci&oacute;n del marco IF</p>
+</div>
+<p class="TextoNormal" align="center"><span style="font-weight: bold;">Marco</span> <span style="font-weight: bold;">If - Else</span></p>
+<p class="TextoNormal" align="center"><span style="font-weight: bold;"><span style="font-weight: bold;"></span></span>Este
+marco es una extensión del If, para el cual se ha agregado en&nbsp;
+caso de que la pregunta sea evaluada a falso. Para crear un marco
+if-else se debe seleccionar &nbsp;el icono en forma de
+&nbsp;caja roja subdividida en dos del la barra específica del
+marco.</p>
+<div class="Imagen" style="text-align: center;">
+  <p><img src="ifElse1.png" alt=""></p>
+  <p>Figura 8. Creaci&oacute;n de un marco If-Else</p>
+</div>
+<p class="TextoNormal" align="center">Al igual
+que para el if, la única configuración necesaria es la de la pregunta.
+Los nuevos espacios agregados serán a la izquierda para el caso en que
+se eval&uacute;e verdadero &nbsp;y el else a la derecha en caso de que
+sea&nbsp; falso.<span style="font-weight: bold;"></span></p>
+<div class="Imagen" style="text-align: center;">
+  <p><img src="ifElse2.png" alt=""></p>
+  <p>Figura 9. Compartimentos para valores verdadero y falso</p>
+</div>
+<p class="TextoResaltado" align="center">Marco While</p>
+<p class="TextoNormal" align="center">El while
+indica un ciclo controlado por una pregunta, que es realizada antes de
+cada ejecución. &nbsp;Para crear un&nbsp; while se debe
+seleccionar el icono en forma de cuadrado relleno lila,&nbsp; de la
+barra específica del marco.<span style="font-weight: bold;"></span></p>
+<p style="text-align: center;" class="Imagen"><img src="while1.png" alt=""></p>
+<p style="text-align: center;" class="Imagen">Figura 10. Creaci&oacute;n de un ciclo while</p>
+El parámetro necesario es la pregunta de control a evaluar en cada
+ciclo, para este caso se escogi&oacute; una pregunta de comparación numérica
+típica. Al igual que en el if, el marco while tiene un contenedor para
+las sentencias que se ejecutar&aacute;n mientras la condición sea verdadera.
+<p style="text-align: center;" class="Imagen"><img src="while2.png" alt=""></p>
+<p style="text-align: center;" class="Imagen">Figura 11. Condici&oacute;n para el ciclo while</p>
+<br>
+<span style="font-weight: bold;">Marco Do-While</span><br>
+<br>
+Este marco es una variación del While, donde la condici&oacute;n es evaluada
+despues del bloque de sentencias, por lo que esta es al menos evaluada
+una vez. para crear un ciclo do-while. El icono a seleccionar en la
+barra de especifica del marco es similar al del while, solo que de
+color verde.<br>
+<br>
+<br>
+<div class="Imagen" style="text-align: center;">
+  <p><img src="dowhile1.png" alt=""></p>
+  <p>Figura 12. Creaci&oacute;n de un ciclo do-while<br>
+    </p>
+</div>
+<p class="TextoNormal" align="center">La &uacute;nica diferencia gr&aacute;fica con el
+marco while es la colocación de la pregunta que se puede observar al
+final del mismo y no al principio.</p>
+<p style="text-align: center;" class="Imagen"><img src="dowhile2.png" alt=""></p>
+<p style="text-align: center;" class="Imagen">Figura 13. Condici&oacute;n para el ciclo do-while</p>
+<p class="TextoResaltado" align="center">Marco Switch</p>
+Este
+marco representa una pregunta acerca del estado de una variable, en la
+que pueden existir m&uacute;ltiple opciones a considerar.Este marco se
+complementa con &nbsp;los marcos case y default. Para crear un Switch
+se debe seleccionar el icono &nbsp;en forma de rect&aacute;ngulo rojo
+enmarcado de la barra específica del marco.
+<p class="TextoNormal" align="center"></p><div class="Imagen" style="text-align: center;">
+  <p><img src="switch1.png" alt=""></p>
+  <p>Figura 14. Creaci&oacute;n de un marco switch</p>
+</div>
+<p class="TextoNormal" align="center">En
+la pregunta se puede colocar una variable, una expresión numérica o
+cualquier otra expresión que pueda ser evaluada a un cierto valor para
+determinar si es verdadera o falsa.</p><div class="Imagen" style="text-align: center;">
+  <p><img src="switch2.png" alt=""></p>
+  <p>Figura 15. Variable a evaluar en el switch</p>
+</div>
+<p class="TextoNormal" align="center">El
+marco switch tiene en un principio un espacio donde es posible insertar
+un case o un valor por defecto&nbsp;únicamente. Cuando este espacio sea ocupado
+se añadirá otro nuevo para poder agregar&nbsp; mas marcos case o un marco default.</p><p style="text-align: center;" class="Imagen"><img src="switch3.png" alt=""></p>
+<p style="text-align: center;" class="Imagen">Figura 16. Representaci&oacute;n de un switch</p>
+<span style="font-weight: bold;">Marco Case</span>
+<p class="TextoNormal" align="center">Este
+marco solo se puede aplicar dentro de un marco Switch. Permite dar una
+asignación a la pregunta de éste para evaluar si es falsa o verdadera.
+Para crear un marco Case &nbsp;se debe seleccionar &nbsp;el icono en
+forma de rect&aacute;ngulo enmarcado amarillo de la barra específica del marco.</p><p style="text-align: center;" class="Imagen"><img src="case1.png" alt=""></p>
+<p style="text-align: center;" class="Imagen">Figura 16. Creaci&oacute;n de un case</p>
+<p class="TextoNormal" align="center">El
+case &nbsp;requiere del valor con el que se evaluará la sentencia del
+switch y opcionalmente si posee un break para salir del switch en caso
+de ser verdadero. </p><p style="text-align: center;" class="Imagen"><img src="case2.png" alt=""></p>
+<p style="text-align: center;" class="Imagen">Figura 17. Valor del break</p>
+Para agregar mas marcos case al mismo switch, aparecerá un espacio &nbsp;al final y entre los case existentes.<br>
+<br>
+<br>
+<div class="Imagen" style="text-align: center;">
+  <p><img src="case3.png" alt=""></p>
+  <p>Figura 18. M&uacute;ltiples case dentro de un switch<br>
+  </p>
+</div>
+<br>
+Por ultimo cada case tiene un espacio tipo contenedor para el caso de que el valor de la sentencia eval&uacute;e a verdadero.<br>
+<br>
+<div class="Imagen" style="text-align: center;">
+  <p><img src="case4.png" alt=""></p>
+  <p>Figura 19. Espacio para inserci&oacute;n en caso de verdadero<br>
+  </p>
+</div><br><span style="font-weight: bold;">Marco Default</span>
+<p class="TextoNormal" align="center">Este
+marco solo se puede generar dentro de otro switch,&nbsp; se eval&uacute;a si
+se llega a el, sin importar el valor de la expresión en el switch, o lo
+que quiere decir es el caso por defecto. Para crear un marco Default se debe
+seleccionar &nbsp;el bot&oacute;n en forma de rect&aacute;ngulo amarillo enmarcado de
+la barra específica del marco.</p><div class="Imagen" style="text-align: center;">
+  <p><img src="default1.png" alt=""></p>
+  <p>Figura 20. Creaci&oacute;n de un marco default</p>
+</div>
+<p class="TextoNormal" align="center">Debido
+a que el marco Default no eval&uacute;a ning&uacute;n valor en particular, lo &uacute;nico que es
+posible cambiar es si posee break o no. Hay que notar que este marco se
+puede colocar en cualquier posici&oacute;n dentro del switch, aunque
+generalmente se coloque al final.</p><p style="text-align: center;" class="Imagen"><img src="default2.png" alt=""></p>
+<p style="text-align: center;" class="Imagen">Figura 21. Insertando el marco default en el Switch</p>
+<p class="TextoNormal" align="center"></p><span style="font-weight: bold;">Marco For</span>
+<p class="TextoNormal" align="center">El
+marco <span class="TextoItalico">For</span> representa un ciclo con una signatura particular, que consta
+de una inicialización, una pregunta y una actualización. Para crear
+&nbsp;un for &nbsp;se debe seleccionar el icono en forma de rectángulo
+&nbsp;enmarcado de la barra específica del marco.</p><br><br><div class="Imagen" style="text-align: center;">
+  <p><img src="for1.png" alt=""></p>
+  <p>Figura 22. Creando un marco For<br>
+  </p>
+</div>
+<p><br class="TextoNormal">
+  El
+  marco <span class="TextoItalico">For </span>posee tres elementos de configuración, el Inicio que es un paso que
+  será ejecutado &uacute;nicamente la primera vez, la pregunta que se evaluará
+  en todos los pasos y la actualización que se llevará a cabo en todos
+  los pasos.<br>
+  <br>
+  La imagen muestra el ejemplo normal para el ciclo, donde se lleva un conteo de 10 ciclos a trav&eacute;s de la variable i.<br>
+  <div class="Imagen"><img src="for2.png" alt=""></p>
+<p>Figura 23. Inicio, pregunta y actualizaci&oacute;n para el marco for<br>
+  </div><br>
+  El
+  plugin de marcos ofrece una presentación gráfica para esto, en la que
+  se muestran &nbsp;el inicio y la pregunta en la parte superior de la
+  caja, seguida por el espacio &nbsp;similar.<br>
+  <br>
+  <br>
+</p>
+<div class="Imagen" style="text-align: center;">
+  <p><img src="for3.png" alt=""></p>
+  <p>Figura 24. Representaci&oacute;n del marco For<br>
+  </p>
+</div>
+<br>
+<br>
+<br>
+<span style="font-weight: bold;">Marco Try Catch</span><p class="TextoNormal" align="center">Este
+marco adiciona una herramienta para generar programas mas robustos,
+mediante esta se puede probar una sentencia que es susceptible a fallo
+(try), detectar el error (catch) y llevar a cabo una tarea en caso de
+que este se presente. Para crear un try-catch se debe seleccionar el
+icono en forma de dos rectángulos azules enmarcados de la barra
+específica del marco.</p><p style="text-align: center;" class="Imagen"><img src="trycatch1.png" alt=""></p>
+<p style="text-align: center;" class="Imagen">Figura 25. Creaci&oacute;n del marco Try-Catch</p>
+<p class="TextoNormal" align="center">La
+opci&oacute;n a configurar en este caso es la Captura de excepción que
+se pretende realizar. El plugin trae tres plantillas para caso de
+excepciones, de IO y de runtime.</p><div class="Imagen" style="text-align: center;">
+  <p><img src="trycatch2.png" alt=""></p>
+  <p>Figura 26. Captura dentro del marco Try-Catch</p>
+</div><p class="TextoNormal" align="center"></p>
+<p class="TextoNormal" align="center">El
+marco tiene dos espacios, el superior para la sentencia a intentar y el
+inferior &nbsp;que se activa en caso de que se lance excepción durante la ejecuci&oacute;n de la sentencia.</p><div class="Imagen" style="text-align: center;">
+  <p><img src="trycatch3.png" alt=""></p>
+  <p>Figura 27. Espacios para la inserci&oacute;n del c&oacute;digo try y el catch<br>
+  </p>
+</div></td>
+</tr>
+</tbody>
+</table>
+</body></html>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- regla de ReglaDeAsociacion -->
+<relaciones>
+ <relacion tipo="Personalizada">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.agrupacion.Sistema</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.agrupacion.Sistema</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.interacciones.Objeto</fuente>
+  <tipoDeFuente>16</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.interacciones.Objeto</objetivo>
+  <tipoDeObjetivo>16</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.interacciones.Objeto</fuente>
+  <tipoDeFuente>256</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.interacciones.Objeto</objetivo>
+  <tipoDeObjetivo>256</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.interacciones.Objeto</fuente>
+  <tipoDeFuente>1024</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.estructurales.CasoDeUso</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.interacciones.Objeto</fuente>
+  <tipoDeFuente>1024</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.estructurales.Clase</objetivo>
+  <tipoDeObjetivo>2</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.estructurales.CasoDeUso</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.interacciones.Objeto</objetivo>
+  <tipoDeObjetivo>1024</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.estructurales.CasoDeUso</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.estructurales.CasoDeUso</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.estructurales.Clase</fuente>
+  <tipoDeFuente>1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.estructurales.Clase</objetivo>
+  <tipoDeObjetivo>1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.estructurales.Clase</fuente>
+  <tipoDeFuente>1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.estructurales.Interface</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.estructurales.Clase</fuente>
+  <tipoDeFuente>2</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.estructurales.Clase</objetivo>
+  <tipoDeObjetivo>2</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.estructurales.Clase</fuente>
+  <tipoDeFuente>2</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.estructurales.Clase</objetivo>
+  <tipoDeObjetivo>4</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.estructurales.Clase</fuente>
+  <tipoDeFuente>4</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.estructurales.Clase</objetivo>
+  <tipoDeObjetivo>2</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.estructurales.Clase</fuente>
+  <tipoDeFuente>4</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.estructurales.Clase</objetivo>
+  <tipoDeObjetivo>4</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.estructurales.Clase</fuente>
+  <tipoDeFuente>4</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.estructurales.Clase</objetivo>
+  <tipoDeObjetivo>8</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.estructurales.Clase</fuente>
+  <tipoDeFuente>8</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.estructurales.Clase</objetivo>
+  <tipoDeObjetivo>4</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.estructurales.Clase</fuente>
+  <tipoDeFuente>8</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.estructurales.Clase</objetivo>
+  <tipoDeObjetivo>8</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.estructurales.NodoDeEmplazamiento</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.estructurales.NodoDeEmplazamiento</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+</relaciones>

@@ -1,0 +1,102 @@
+#menu {
+
+	margin: 1 5;
+
+
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	width: 124px;
+	height: 39px;
+	padding: 4px 0px 0px;
+	background: url(light.png) no-repeat top center;
+	text-align: center;
+	line-height: 27px;
+
+
+	text-decoration: none;
+
+	font-weight: bold;
+	font-family:tahoma,arial,helvetica;
+	color: #444444;
+	font-size:11px;
+}
+
+#menu a.dark
+{
+	display: block;
+	float: left;
+	width: 124px;
+	height: 39px;
+	padding: 4px 0px 0px;
+	background: url(dark.png) no-repeat top center;
+	text-align: center;
+	line-height: 27px;
+
+
+	text-decoration: none;
+
+	font-weight: bold;
+	font-family:tahoma,arial,helvetica;
+	color: #444444;
+	font-size:11px;
+} 
+
+#menu a.darkdouble
+{
+	display: block;
+	float: left;
+	width: 124px;
+	height: 39px;
+	padding: 4px 0px 0px;
+	background: url(dark.png) no-repeat top center;
+	text-align: center;
+	line-height: 15px;
+
+
+	text-decoration: none;
+
+	font-weight: bold;
+	font-family:tahoma,arial,helvetica;
+	color: #444444;
+	font-size:11px;
+}
+
+#menu a.double-line {
+  line-height: 15px;
+}
+
+#menu a:hover{
+	background-image: url(dark.png);
+	color: #FFFFFF;
+	font-family:tahoma,arial,helvetica;
+}
+
+#menu a:active{
+	background-image: url(dark.png);
+	color: #FFFFFF;
+	font-family:tahoma,arial,helvetica
+}
+.Estilo3 {font-size: 5px}
+body {
+	background-image: url();
+	background-repeat: no-repeat;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}

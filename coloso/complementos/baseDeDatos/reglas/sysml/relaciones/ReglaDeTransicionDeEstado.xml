@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- regla de ReglaDeTransicionDeEstado -->
+<relaciones>
+ <relacion tipo="Personalizada">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.agrupacion.Frame</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.agrupacion.Frame</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.BarraDeSincronizacion</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.BarraDeSincronizacion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.BarraDeSincronizacion</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.Estado</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.BarraDeSincronizacion</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoDeDecision</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.BarraDeSincronizacion</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoFinal</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.BarraDeSincronizacion</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoHistorico</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.BarraDeSincronizacion</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoHistoricoProfundo</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.BarraDeSincronizacion</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.senales.SenalDeEntrada</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.BarraDeSincronizacion</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.senales.SenalDeSalida</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.Estado</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.BarraDeSincronizacion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.Estado</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.Estado</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.Estado</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoDeDecision</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.Estado</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoFinal</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.Estado</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoHistorico</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.Estado</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoHistoricoProfundo</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.Estado</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.senales.SenalDeEntrada</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.Estado</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.senales.SenalDeSalida</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoDeDecision</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.BarraDeSincronizacion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoDeDecision</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.Estado</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoDeDecision</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoDeDecision</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoDeDecision</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoFinal</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoDeDecision</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoHistorico</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoDeDecision</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoHistoricoProfundo</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoDeDecision</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.senales.SenalDeEntrada</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoDeDecision</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.senales.SenalDeSalida</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoHistorico</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.BarraDeSincronizacion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoHistorico</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.Estado</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoHistorico</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoDeDecision</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoHistorico</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoFinal</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoHistorico</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoHistorico</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoHistorico</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoHistoricoProfundo</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoHistorico</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.senales.SenalDeEntrada</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoHistorico</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.senales.SenalDeSalida</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoHistoricoProfundo</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.BarraDeSincronizacion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoHistoricoProfundo</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.Estado</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoHistoricoProfundo</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoDeDecision</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoHistoricoProfundo</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoFinal</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoHistoricoProfundo</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoHistorico</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoHistoricoProfundo</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoHistoricoProfundo</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoHistoricoProfundo</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.senales.SenalDeEntrada</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoHistoricoProfundo</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.senales.SenalDeSalida</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoInicial</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.BarraDeSincronizacion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoInicial</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.Estado</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoInicial</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoDeDecision</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoInicial</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoFinal</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoInicial</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoHistorico</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoInicial</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoHistoricoProfundo</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoInicial</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.senales.SenalDeEntrada</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoInicial</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.senales.SenalDeSalida</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.senales.SenalDeEntrada</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.BarraDeSincronizacion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.senales.SenalDeEntrada</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.Estado</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.senales.SenalDeEntrada</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoDeDecision</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.senales.SenalDeEntrada</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoFinal</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.senales.SenalDeEntrada</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoHistorico</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.senales.SenalDeEntrada</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoHistoricoProfundo</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.senales.SenalDeEntrada</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.senales.SenalDeEntrada</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.senales.SenalDeEntrada</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.senales.SenalDeSalida</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.senales.SenalDeSalida</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.BarraDeSincronizacion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.senales.SenalDeSalida</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.Estado</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.senales.SenalDeSalida</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoDeDecision</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.senales.SenalDeSalida</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoFinal</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.senales.SenalDeSalida</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoHistorico</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.senales.SenalDeSalida</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.subestados.EstadoHistoricoProfundo</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.senales.SenalDeSalida</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.senales.SenalDeEntrada</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.senales.SenalDeSalida</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.comportamiento.estados.senales.SenalDeSalida</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+</relaciones>

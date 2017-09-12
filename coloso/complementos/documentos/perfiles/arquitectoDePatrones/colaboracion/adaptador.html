@@ -1,0 +1,161 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0050)http://f14web.com.ar/inkel/que-es-la-web-semantica -->
+<?xml version="1.0" encoding="iso-8859-1"?><HTML lang=es xml:lang="es" 
+xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>¿Qué es la Web Semántica?</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1"><LINK 
+href="dirAdaptador/articulo.css" type=text/css 
+rel=stylesheet><LINK href="http://f14web.com.ar/favicon.ico" type=image/x-icon 
+rel="shortcut icon"><!-- META -->
+<META lang=en content="rdf, semantic web, tutorial, xml" name=keywords 
+xml:lang="en">
+<META lang=es content="rdf, web semantica, tutorial, xml" name=keywords 
+xml:lang="es"><LINK title=FOAF 
+href="http://f14web.com.ar/inkel/rdf/foaf/inkel.xrdf" type=application/rdf+xml 
+rel=meta><LINK title=inkelog href="http://f14web.com.ar/inkel/blog/" 
+type=text/html rel=weblog><LINK title=F14 href="http://f14web.com.ar/" 
+type=text/html rel=up><!-- NAVIGATION -->
+<META content="MSHTML 6.00.2900.2963" name=GENERATOR></HEAD>
+<BODY>
+<DIV id=Header>
+<H1>¿Qué es la Web Semántica?</H1>
+<P class=smallNote>Nota: Este documento es un borrador, por lo tanto, aún no 
+esta terminado. Como tantas otras cosas de este sitio, probablemente este 
+documento nunca este terminado, e incluso, puede que comience uno 
+nuevo.</P></DIV>
+<DIV id=Content>
+<DL>
+  <DT id=esta-version>Esta versión: 
+  <DD><A 
+  href="http://f14web.com.ar/inkel/2004/07/07/web-semantica.html">http://f14web.com.ar/inkel/2004/07/07/web-semantica.html</A> 
+
+  <DT id=ultima-version>Última versión: 
+  <DD><A 
+  href="http://f14web.com.ar/inkel/que-es-la-web-semantica">http://f14web.com.ar/inkel/que-es-la-web-semantica</A> 
+
+  <DT id=version-anterior>Versión anterior: 
+  <DD><A 
+  href="http://f14web.com.ar/inkel/2004/06/24/web-semantica.html">http://f14web.com.ar/inkel/2004/06/24/web-semantica.html</A> 
+  </DD></DL>
+<H2>Introducción</H2>
+<P>Todos conocemos la <SPAN lang=en xml:lang="en">World Wide Web</SPAN>, o 
+<ACRONYM lang=en title="World Wide Web" xml:lang="en">WWW</ACRONYM>, como una 
+interminable red de sitios y páginas que nos proveen a nosotros, la humanidad, 
+del conocimiento que estamos buscando, como por ejemplo, <A 
+title="IMDB: Internet Movie Database" href="http://www.imdb.com/" 
+hreflang=en>información sobre peliculas y actores</A> o <A title=FIFA 
+href="http://www.fifa.org/" hreflang=en>futbol internacional</A>, en una manera 
+fácil de comprender por nosotros. Y negar la utilidad de la <ACRONYM lang=en 
+title="World Wide Web" xml:lang="en">WWW</ACRONYM> es algo que esta fuera de 
+discusión. Hasta hoy. Más alla de disponer de esta cantidad infinita de 
+recursos, es muy díficil combinarlos automáticamente sin nuestra intervención, 
+debido a, como señale anteriormente, que esta información esta en un formato 
+<EM>para humanos</EM>.</P>
+<P><A lang=en href="http://www.w3.org/People/Berners-Lee/" hreflang=en 
+xml:lang="en">Tim Berners-Lee</A>, el creador de la <ACRONYM lang=en 
+title="World Wide Web" xml:lang="en">WWW</ACRONYM> tenia otra visión sobre lo 
+que es hoy por hoy la web que conocemos. El pensó en una red de recursos que nos 
+permitiera programar agentes que navegaran la infinitud de sitios pudiendo 
+obtener la información que necesitamos sin tener que indicarle de donde 
+obtenerla o que significado debe tener cada recurso, transformando finalmente 
+esa información a un formato que sea facilmente entendible por nosotros. Esa 
+Web, que aún se encuentra en una fase de desarrollo, es lo que se conoce como la 
+<A title="Semantic Web" href="http://www.w3.org/2001/sw/" hreflang=en>Web 
+Semántica</A>.</P>
+<P>Para que esta gran idea funcione, hacia falta un lenguaje estandarizado para 
+describir los contenidos de la Web Semántica. Es por esta razón que se creo la 
+Plataforma para la Descripción de Recursos, más conocido como <A 
+href="http://www.w3.org/RDF/" hreflang=en><ACRONYM lang=en 
+title="Resource Description Framework" xml:lang="en">RDF</ACRONYM></A>. Este es 
+un lenguaje <EM>simple</EM> mediante el cual definimos sentencias en el formato 
+de una 3-upla o triple <CODE>(sujeto, predicado, objeto)</CODE>, donde:</P>
+<DL>
+  <DT>Sujeto 
+  <DD>Es el Recurso sobre el cual nos estamos refiriendo. 
+  <DT>Predicado 
+  <DD>Es el Recurso que indica que es lo que estamos definiendo. 
+  <DT>Objeto 
+  <DD>Puede ser un Recurso o un Literal que podria considerarse el valor de lo 
+  que acabamos de definir. </DD></DL>
+<P>A simple vista pareciera que no es mucho lo que decimos con esto, pero cuando 
+tenemos un conjunto de triples es mayor la expresividad que tenemos. Por 
+ejemplo, para señalar que cual es el titulo de este documento podriamos decir 
+que: el <STRONG>titulo</STRONG> del recurso 
+<STRONG>http://f14web.com.ar/inkel/que-es-la-web-semantica</STRONG> es 
+<STRONG>¿Qué es la Web Semántica?</STRONG>, que expresado en <ACRONYM lang=en 
+title="Resource Description Framework" xml:lang="en">RDF</ACRONYM> seria:</P><PRE>(&lt;http://f14web.com.ar/inkel/que-es-la-web-semantica&gt;,
+ &lt;http://purl.org/dc/elements/1.1/title&gt;,
+ "¿Qué es la Web Semántica?")</PRE>
+<P>Ahora que hemos visto como se compone un triple de <ACRONYM lang=en 
+title="Resource Description Framework" xml:lang="en">RDF</ACRONYM>, veamos como 
+seria su sintaxis <ACRONYM lang=en title="Resource Description Framework" 
+xml:lang="en">RDF</ACRONYM>/<ABBR lang=en title="eXtensible Markup Language" 
+xml:lang="en">XML</ABBR>:</P><PRE>&lt;?xml version="1.0" encoding="iso-8859-1"?&gt;
+&lt;rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"&gt;
+
+&lt;rdf:Description
+    rdf:about="http://f14web.com.ar/inkel/que-es-la-web-semantica"&gt;
+    &lt;dc:title&gt;¿Qué es la Web Semántica?&lt;/dc:title&gt;
+&lt;/rdf:Description&gt;
+
+&lt;/rdf:RDF&gt;</PRE>
+<P>Este simple ejemplo no sirve de mucho por si solo (y de hecho, su intención 
+es solo a modo de muestra), pero podemos apreciar algunos detalles muy 
+importantes del poder y la libertad que tenemos: podemos describir los recursos 
+que deseamos (libertad), indicando de ellos lo que querramos (poder). Pero esto 
+tambien tiene un costo: una persona maliciosa podria decir que este documento en 
+realidad se titula <EM>"Los secretos de la cocina anglosajona"</EM>, con lo que 
+perderiamos la realidad de las cosas. Para esto la Web Semántica se basa en 
+distintas capas, siendo una de ellas la confianza y la firma digital, de modo 
+que podamos saber quien dijo que cosa acerca de que otra.</P>
+<DIV style="TEXT-ALIGN: center"><IMG id=Capas 
+title="Las diferentes capas de la Web Semántica" 
+style="BORDER-RIGHT: black 1px solid; PADDING-RIGHT: 1em; BORDER-TOP: black 1px solid; PADDING-LEFT: 1em; PADDING-BOTTOM: 1em; MARGIN: auto; BORDER-LEFT: black 1px solid; PADDING-TOP: 1em; BORDER-BOTTOM: black 1px solid" 
+alt="capas de la web semántica" 
+codebase="arquitectoDePatrones.jar"
+src="dirAdaptador/sweb-stack.gif"></DIV>
+<H2>Las diferentes Capas</H2>
+<P>A continuación explicaré brevemente las diferentes capas que componen la Web 
+Semántica:</P>
+<DL>
+  <DT lang=en xml:lang="en">Unicode 
+  <DD><SPAN lang=en xml:lang="en">Unicode</SPAN> es una codificación del texto 
+  que permite utilizar los símbolos de diferentes idiomas sin observar 
+  caractéres extraños. Esto permite expresar información en la Web Semántica en 
+  cualquier idioma. 
+  <DT><ACRONYM lang=en title="Uniform Resource Identifier" 
+  xml:lang="en">URI</ACRONYM> 
+  <DD><ACRONYM lang=en title="Uniform Resource Identifier" 
+  xml:lang="en">URI</ACRONYM> es el acrónimo de <EM lang=en 
+  xml:lang="en">Uniform Resource Identifier</EM>, o en castellano, 
+  <EM>Identificador Uniforme de Recursos</EM>. Es un poco confusa la diferencia 
+  entre <ACRONYM lang=en title="Uniform Resource Identifier" 
+  xml:lang="en">URI</ACRONYM> y <ACRONYM lang=en 
+  title="Uniform Resource Locator" xml:lang="en">URL</ACRONYM>, por lo que vamos 
+  a decir que un <ACRONYM lang=en title="Uniform Resource Locator" 
+  xml:lang="en">URL</ACRONYM> es un recurso que puede ser accedido via Internet. 
+
+  <DT><ABBR lang=en title="eXtensible Markup Language" xml:lang="en">XML</ABBR> 
+  + <ABBR lang=en title=Namespaces xml:lang="en">NS</ABBR> + <SPAN lang=en 
+  xml:lang="en">xmlschema</SPAN> 
+  <DD>Tal vez la capa más técnica de la Web Semántica. En esta capa se agrupan 
+  las diferentes tecnológias que hacen posible que los agentes puedan entenderse 
+  entre ellos. 
+  <DT><ACRONYM lang=en title="Resource Description Framework" 
+  xml:lang="en">RDF</ACRONYM> + <SPAN lang=en xml:lang="en">rdfschema</SPAN> 
+  <DD>Directamente basada y apoyada en la capa anterior, esta capa define el 
+  <EM>lenguaje universal</EM> con el cual podemos expresar diferentes ideas en 
+  la Web Semántica. 
+  <DT>Lenguaje de Ontologías 
+  <DD>Los lenguajes de ontologías nos permiten extender la funcionalidad de la 
+  Web Semántica, agregando nuevas clases y propiedades para describir los 
+  recursos. 
+  <DT>Lógica 
+  <DT>Prueba 
+  <DT>Confianza 
+  <DT>Firma Digital </DT></DL></DIV>
+<DIV id=Footer>
+<ADDRESS>inkel (<A 
+href="mailto:inkel-rdf@f14web.com.ar">inkel-rdf@f14web.com.ar</A>)</ADDRESS>
+<DIV>Tuesday, 04-Jul-2006 06:36:51 ART </DIV></DIV></BODY></HTML>

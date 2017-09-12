@@ -1,0 +1,240 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+  <title>Componente de Metrica</title>
+
+  
+  
+  <link rel="stylesheet" href="../estilo.css">
+
+</head><body topmargin="0">
+<table align="center" border="0" height="95" width="478">
+
+  <tbody>
+    <tr>
+      <td height="23">
+      <p class="Estilo4" align="left"><span class="Titulo">Componente Métrica</span><br>
+      </p>
+      </td>
+    </tr>
+    <tr>
+      <td height="66" width="472">
+      <div class="Estilo2"> 
+        <p>&nbsp;</p>
+        <p><span class="TextoNormal">El componente de métricas permite realizar
+          cuantificar características sobre los diferentes artefactos como
+          clases, metodos, sistemas, casos de uso, entre otros. Las mediciones
+          sobre estos se realizan con el fin de obtener parámetros confiables de
+          comparación y  de ofrecer guias para determinar la calidad de
+          una cierta parte de un software.<br>
+          <br>
+          <br>
+          Las métricas se presentan en una pestaña del marco de extensión, esta
+          está compuesta de tres columnas como se muestra en la Figura 1.</span><br>
+          <br>
+          </p>
+        <div class="Imagen" style="text-align: center;">
+          <p><img style="width: 410px; height: 53px;" alt="PestanaMetricas" src="metricas1.png"></p>
+          <p>Figura 1. Perspectiva de M&eacute;trica<br>
+              </p>
+        </div>
+        <span class="TextoNormal"><br>
+        </span>
+        <ul>
+        <li><span class="TextoNormal" style="font-weight: bold;">Métrica</span><span class="TextoNormal">: Muestra el
+valor de la medición para una métrica dada.</span></li>
+        <li><span class="TextoNormal" style="font-weight: bold;">Descipción</span><span class="TextoNormal">: Da una
+indicación general acerca del tipo de métrica que se está tratando</span></li>
+        <li><span class="TextoNormal" style="font-weight: bold;">Recomendación</span><span class="TextoNormal">:
+Muestra el significado de los diferentes valores de la métrica y el
+valor esperado para cada una de las mediciones.<br>
+        </span></li>
+      </ul>
+        <span class="TextoNormal"><br>
+        Coloso ofrece métricas para:<br>
+        <br>
+        <span style="font-weight: bold;">CASOS DE USO</span><br>
+        <br>
+        Para generar las métricas para un caso de uso es necesarios hacer click
+derecho sobre este y seleccionar Generar Métrica, como se observa en la figura 2.</span><span class="Imagen"><br>
+      <br>
+      </span>
+<div style="text-align: center;">
+  <p class="Imagen"><img style="width: 441px; height: 255px;" alt="Metrica Caso Uso 1" src="metricacasouso1.png"></p>
+  <p class="Imagen">Figura 2. Acceso a componente de m&eacute;tricas para casos de uso<br>
+  </p>
+</div>
+      <p><br>
+          <span class="TextoNormal">Una vez realizado esto, la perspectiva de métricas en el marco de
+            extensión es actualizada con las mediciones realizadas sobre un caso de
+            uso como se muestra en la Figura 3.<br>
+          </span></p>
+      <p>
+          <div class="Imagen"><img style="width: 443px; height: 106px;" alt="Metrica Caso Uso" src="metricacasouso2.png"></p>
+      <p>Figura 3. Metrica para casos de uso<br>
+        </div><br>
+        <span class="TextoNormal">La métrica aplicada a los casos de uso es:<br>
+            <br>
+          </p>
+        </span>
+        <ul>
+        <li><span class="TextoNormal" style="font-weight: bold;">npe</span><span class="TextoNormal"> : Indica el
+número de puntos de extensión de un caso de uso. La recomendación es
+que no sean pocos puntos.</span></li>
+      </ul>
+        <span class="TextoNormal"><br>
+        <span style="font-weight: bold;">CLASES<br>
+        </span><br>
+&nbsp;Para
+generar las métricas de una clase es necesario hacer click derecho
+sobre ésta y seleccionar Generar Métrica, como se muestra en la Figura 4.</span>
+        <ul>
+          </ul>
+      <div class="Imagen" style="text-align: center;">
+        <p><img style="width: 315px; height: 341px;" alt="MetricaClase" src="metricaclase1.png"></p>
+        <p>Figura 4. Generar M&eacute;trica para Clases<br>
+          </p>
+      </div>
+      <span class="TextoNormal"><br>
+      Una vez realizado esto, la perpectiva de métricas en el marco de
+extensión es actualizada con las mediciones realizadas sobre la clase, como se observa en la Figura 5.</span><br>
+      <br>
+      <div class="Imagen" style="text-align: center;">
+        <p><img style="width: 446px; height: 248px;" alt="Metrica Clase 2" src="metricaclase2.png"></p>
+        <p>Figura 5. Metricas para clases en la perspectiva de m&eacute;trica<br>
+          </p>
+      </div>
+      <span class="Imagen"><br>
+      </span><span class="TextoNormal">Las métricas aplicadas a las clases son:<br>
+      <br>
+      </span>
+      <ul>
+        <li><span class="TextoNormal" style="font-weight: bold;">ni</span><span class="TextoNormal"> : Indica el número de
+implementaciones de la clase. La recomendación es que este número no
+sea muy grande, ojala no mayor a 5.</span></li>
+        <li class="TextoNormal"><span class="TextoResaltado">p :</span> Representa el número de niveles de herencia de la clase. La
+recomendación es que este número no sea muy grande, ojala no mayor a 5.</li>
+        <li><span class="TextoNormal" style="font-weight: bold;">na</span><span class="TextoNormal"> : El número de
+atributos dentro de la clase. La recomendación es que este número no
+sea muy grande, ojala no mayor a 10.</span></li>
+        <li><span class="TextoNormal" style="font-weight: bold;">napri</span><span class="TextoNormal"> : Es el
+número de atributos privados dentro de la clase. La recomedación es que
+este número no sea muy grande, ojala no mayor a 10.</span></li>
+        <li><span class="TextoNormal" style="font-weight: bold;">napro</span><span class="TextoNormal"> : Esta m&eacute;trica indiaca el
+número de atributos protegidos dentro de la clase. La recomendación es
+que este número no sea muy grande, ojala no mayor a 10.</span></li>
+        <li><span class="TextoNormal" style="font-weight: bold;">napub</span><span class="TextoNormal"> : Es el
+número de atributos públicos de la clase,. La recomendación es que este
+número sea cero por seguridad de la información.</span></li>
+        <li><span class="TextoNormal" style="font-weight: bold;">no</span><span class="TextoNormal"> : Es el número
+de operaciones dentro de la clase. La recomendación es que este número
+no sea muy grande.</span></li>
+        <li><span class="TextoNormal" style="font-weight: bold;">nopriv</span><span class="TextoNormal"> : Indica  el
+número de operaciones privadas dentro de la clase. La recomendación es
+que este número sea acorde a los servicios internos necesarios.</span></li>
+        <li><span class="TextoNormal" style="font-weight: bold;">nopro</span><span class="TextoNormal"> : Es el
+número de operaciones protegidas dentro de la clase. La recomendación
+es que este número sea acrode a los servicios propuestos para heredar y
+protegidos al cliente externo.</span></li>
+        <li><span class="TextoNormal" style="font-weight: bold;">nopub</span><span class="TextoNormal"> : Es el
+número de operaciones públicas de la clase. La recomendación es que
+este número sea acorde al número de servicios de exportación.<br>
+        </span></li>
+      </ul>
+      <span class="TextoNormal" style="font-weight: bold;">NODOS DE EMPLAZAMIENTO</span><span class="TextoNormal"><br>
+      <br>
+      Para
+generar las métricas de un nodo de emplazamiento es necesario hacer
+click derecho
+sobre éste y seleccionar Generar Métrica, como se muestra en la figura 6.<br>
+      </span><br>
+      <div class="Imagen" style="text-align: center;">
+        <p><img style="width: 259px; height: 289px;" alt="Metrica Nodo 1" src="metricaNodo1.png"></p>
+        <p>Figura 6. Generar M&eacute;trica para nodos de emplazamiento<br>
+          </p>
+      </div>
+      <span class="Imagen"><br>
+      </span><span class="TextoNormal">Una vez realizado esto, la perpectiva de métricas en el marco de
+extensión es actualizada con las mediciones realizadas sobre la clase, como se muestra en la FIgura 7.</span><br>
+      <br>
+      <br>
+      <div class="Imagen" style="text-align: center;">
+        <p><img style="width: 444px; height: 140px;" alt="Metrica Nodo 2" src="metricaNodo2.png"></p>
+        <p>FIgura 7. Perspectiva de M&eacute;trica para Nodos de emplazamiento<br>
+          </p>
+      </div>
+      <br>
+      <span class="TextoNormal">Las métricas pertinentes a los nodos de emplazamiento son:<br>
+      <br>
+      </span>
+      <ul>
+        <li><span class="TextoNormal" style="font-weight: bold;">ni</span><span class="TextoNormal"> : Indica el
+número de interfaces en el nodo. Lo recomendado es que sean pocas.</span></li>
+        <li><span class="TextoNormal" style="font-weight: bold;">nc</span><span class="TextoNormal"> : Esta métrica
+indica el número de componentes en el nodo de emplazameinto. Lo
+recomendado es que esta número sea correspondiente al necesario.</span></li>
+        <li><span class="TextoNormal" style="font-weight: bold;">nn</span><span class="TextoNormal"> : Esta métrica
+indica el número de nodos. La recomendación es que sean tantos como
+sean necesarios.<br>
+        </span></li>
+      </ul>
+      <p class="TextoNormal"><br>
+            <span style="font-weight: bold;">SISTEMAS</span><br>
+        </p>
+      <p><span class="TextoNormal">Para
+        generar las métricas de un sistema es necesario hacer click derecho
+        sobre éste y seleccionar Generar Métricas como se muestra en la Figura 8. Hay que notar que las
+        métricas están referidas a los elementos dentro del sistema y sus
+        relaciones, por lo que los sistemas sin elementos o relaciones no
+        producen valóres para las métricas.<br>
+        </span><br>
+          <br>
+      </p>
+      <div class="Imagen" style="text-align: center;">
+        <p><img style="width: 384px; height: 521px;" alt="Metrica Sistemas 1" src="metricaSistema1.png"></p>
+        <p>FIgura 8. Generar M&eacute;trica para un Sistema<br>
+          </p>
+      </div>
+      <br>
+Una vez realizado esto, la perpectiva de métricas en el marco de
+extensión es actualizada con las mediciones realizadas sobre la clase, como se observa en la Figura 9.<br>
+      <span class="Imagen"><br>
+      </span>
+      <div class="Imagen" style="Imagen">
+        <p><img style="width: 427px; height: 184px;" alt="Metrica Sistema 2" src="metricaSistema2.png"></p>
+        <p>Figura 9. Perspectiva de M&eacute;trica para un sistema<br>
+          </p>
+      </div>
+      <br>
+      <span class="TextoNormal">Las métricas aplicadas a los sistemas son:<br>
+      <br>
+      </span>
+      <ul>
+        <li><span class="TextoNormal" style="font-weight: bold;">Ce</span><span class="TextoNormal"> : Es el número
+de clases dentro del paquete que dependen de las clases externas al
+sistema. Lo recomendado es que este número tienda a cero.<br>
+        </span></li>
+        <li><span class="TextoNormal" style="font-weight: bold;">Ca</span><span class="TextoNormal"> : Es el número
+de clases fuera del paquete que dependen de las clases contenidas en el
+sistema. Lo recomendable es que este número sea alto.</span></li>
+        <li><span class="TextoNormal" style="font-weight: bold;">I = Ce/(Ca+Ca)</span><span class="TextoNormal">:&nbsp;
+Esta métrica está comprendida en el intervalo [0,1] , donde I = 0
+indica qu el paquete es totalmente estable y por el contrario I= 1
+indica un paquete totalmente inestable.&nbsp; Lo recomedable es que
+este valor tienda a cero.</span></li>
+        <li><span class="TextoNormal" style="font-weight: bold;">cc</span><span class="TextoNormal"> : Esta métrica
+indica el número de clases concretas. Lo recomendable es que este valor
+sea cercano a cero al comienzo de la fase de diseño.</span></li>
+        <li><span class="TextoNormal" style="font-weight: bold;">ca</span><span class="TextoNormal"> :&nbsp; Esta
+clase indica el número de clases abstractas. Lo recomendable es&nbsp;
+que este valor sea alto al inicio de la fase de diseño.</span></li>
+        <li><span class="TextoNormal" style="font-weight: bold;">A = ca / (cc + ca)</span><span class="TextoNormal"> : Esta métrica indica el grado de abstracción.&nbsp; Lo recomendable es
+que este valor tienda a uno.<br>
+        </span></li>
+      </ul>
+      <span class="TextoNormal"><br>
+      </span></div>      </td>
+    </tr>
+  </tbody>
+</table>
+
+</body></html>

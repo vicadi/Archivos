@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- regla de ReglaDeRealizacion -->
+<relaciones>
+ <relacion tipo="Estandar">
+  <fuente>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.estructurales.objeto.participante.Rol</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.estructurales.objeto.artefacto.Insumo</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.estructurales.objeto.participante.Rol</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.estructurales.objeto.artefacto.Interface</objetivo>
+  <tipoDeObjetivo>4</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.estructurales.objeto.participante.Rol</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.estructurales.objeto.artefacto.Resultado</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.estructurales.objeto.participante.Rol</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.funcionales.objeto.mecanismo.Actividad</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.estructurales.objeto.participante.Rol</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.funcionales.objeto.mecanismo.Tarea</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.estructurales.objeto.participante.Rol</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.funcionales.objeto.pauta.Indicacion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.estructurales.objeto.participante.Rol</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.lmmps.logica.core.bloquesDeConstruccion.elementos.complementarios.informacionales.meta.MInformacional</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.estructurales.objeto.participante.Rol</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.lmmps.logica.core.bloquesDeConstruccion.elementos.complementarios.informacionales.objeto.Documento</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.estructurales.objeto.participante.Rol</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.lmmps.logica.core.bloquesDeConstruccion.elementos.complementarios.informacionales.objeto.Nota</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.estructurales.objeto.participante.Rol</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.lmmps.logica.core.bloquesDeConstruccion.elementos.complementarios.informacionales.objeto.Texto</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+</relaciones>

@@ -1,0 +1,553 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>Plugin de Clases</title>
+
+
+<link rel="stylesheet" href="../estilo.css"></head><body topmargin="0">
+<table align="center" border="0" height="95" width="478">
+<tbody>
+<tr>
+<td height="23">
+<p class="Titulo" align="left">Plugin Clases</p></td>
+</tr>
+<tr>
+<td class="TextoNormal" height="66" valign="top" width="472">
+<p class="TextoNormal">&nbsp;</p>
+<p class="TextoNormal">El plugin de Clases&nbsp; es
+  parte de la solución UML+ para la realización de
+  diagramas según la especificación UML 2.0. Este diagrama&nbsp;
+  permite
+  modelar la interacción de las clases e interfaces describiendo la
+  semántica de las relaciones que se dan entre estas.<br class="TextoNormal">
+</p>
+<p class="TextoNormal" align="left">Los elementos
+propios que maneja este diagrama son:&nbsp; </p>
+<ul class="TextoNormal">
+<li> Clase </li>
+<li> Interface </li>
+<li> Interface Requerida </li>
+<li>Interface Proveida </li>
+<li> Puerto </li>
+<li> Sistema </li>
+<li> Dependencia </li>
+<li>Asociación</li>
+<li> Agregación </li>
+<li> Composición </li>
+<li> Generalización</li>
+<li>Realización </li>
+<li>Enlace</li>
+<li>Enlace a Puerto </li>
+</ul>
+<p class="TextoNormal" align="left"> <span class="TextoResaltado">Creación de un nuevo Diagrama de Clases.</span></p>
+<p class="TextoNormal" align="left">Colosoft
+soporta el Plugin Clases mediante la creación de un nuevo diagrama de
+Clases. <br>
+<br>
+Para la creación de un nuevo diagrama usando el Plugin se selecciona en
+el Marco de Expresión: Nuevo, Diseñador de Software, Diagrama de Clases.</p>
+<p class="TextoNormal" align="left">Se ingresan
+los datos correspondientes al diagrama </p>
+<p style="text-align: center;" class="Imagen"><img src="clase030.png" height="226" width="214">&nbsp;&nbsp;<img src="clase003.png" height="46" width="165"></p>
+<p style="text-align: center;" class="Imagen">Figura 1. Creando diagrama de clases</p>
+<p class="TextoResaltado" align="left">Barra de
+herramientas del Plugin de Clases .</p>
+<p style="text-align: center;" class="Imagen"><img src="2.png" height="20" width="417"></p>
+<p style="text-align: center;" class="Imagen">Figura 2. Barra de herramientas del plugin</p>
+<p class="TextoNormal" align="left"><span class="TextoResaltado"> Clase:</span> Es el elemento clave
+de este diagrama, una clase representa un grupo de entidades que tienen un
+estado y comportamiento común. Para agregar una clase se selecciona el
+Icono Clase y luego se hace clic en alguna parte vacía del marco de
+Expresión.</p>
+<p style="text-align: center;" class="Imagen"><img src="00.png" height="62" width="67"></p>
+<p style="text-align: center;" class="Imagen">Figura 3. Bot&oacute;n de creaci&oacute;n de clase</p>
+<p class="TextoNormal" align="left"> Aparecerá la
+ventana de creación de una
+clase. </p>
+<p style="text-align: center;" class="Imagen"><img src="clase004.png" height="450" width="347"></p>
+<p style="text-align: center;" class="Imagen">Figura 4. Panel de creaci&oacute;n de clases</p>
+<p class="TextoNormal" align="left">
+Opcionalmente se pueden ingresar en los campos de
+estereotipo, autor y versión. </p>
+<p style="text-align: center;" class="Imagen"><img src="clase009.png" height="101" width="358"></p>
+<p style="text-align: center;" class="Imagen">Figura 5. Datos b&aacute;sicos de creaci&oacute;n</p>
+<p class="TextoNormal" align="left">El artefacto
+de clase creado puede ser caracterizado de acuerdo con los perfiles
+disponibles. </p>
+<p style="text-align: center;" class="Imagen"><img src="clase010.png" height="113" width="358"></p>
+<p style="text-align: center;" class="Imagen">Figura 6. Perfiles disponibles para clases</p>
+<p class="TextoNormal" align="left">Es posible
+ajustar las propiedades del
+contenedor de la clase (visible y editable).</p>
+<p style="text-align: center;" class="Imagen"><img src="clase011.png" height="42" width="358"></p>
+<p style="text-align: center;" class="Imagen">Figura 7. Propiedades del contenedor</p>
+<p class="TextoNormal" align="left">Las clases
+,adem&aacute;s, pueden ser caracterizadas como hojas (si no pueden ser
+generalizadas) o abstractadas (requieren de otras clases para
+implementar sus operaciones). </p>
+<p style="text-align: center;" class="Imagen"><img src="clase034.png" height="26" width="358"></p>
+<p style="text-align: center;" class="Imagen">Figura 8. Caracterizaci&oacute;n de la clase</p>
+<p class="TextoNormal" align="left"> Las
+propiedades del elemento
+de grafo al igual que en el resto de los diagramas también se pueden
+editar. </p>
+<p style="text-align: center;" class="Imagen"><img src="clase033.png" height="26" width="358"></p>
+<p style="text-align: center;" class="Imagen"><img src="clase032.png" height="26" width="358"></p>
+<p style="text-align: center;" class="Imagen">Figura 9. Propiedades del grafo</p>
+<p class="TextoNormal" align="left"><em><strong>En
+la pestaña de atributos</strong></em> se encuentran los
+campos necesarios para agregar variables de diversos tipos a la clase
+recién creada.</p>
+<p class="TextoNormal" align="justify">En el
+primer apartado se introducen datos de Nombre de la variable, tipo que
+se puede escoger de entre Int, Char, boolean, etc. Un valor inicial y
+si se desea en dimensión se especifica el tamaño de arreglo si se desea
+crear. </p>
+<p class="Imagen" align="center"><img src="clase013.png" height="101" width="358"></p>
+<p class="Imagen" align="center">Figura 10. Atributos de la clase</p>
+<p class="TextoNormal" align="justify">En los
+siguientes grupos se puede establecer la visibilidad del nuevo
+atributo: Público, Protegido, Privado y de paquete. El tipo de
+Modificador: Transiente, Final, Volátil, Mutable. Y el Alcance:
+Clasificador o de Instancia.</p>
+<p class="Imagen" align="center"><img src="clase014.png" height="42" width="358"></p>
+<p class="Imagen" align="center"><img src="clase015.png" height="42" width="358"></p>
+<p class="Imagen" align="center"><img src="clase016.png" height="42" width="358"></p>
+<p class="Imagen" align="center">Figura 11. Propiedades de visibilidad, modificadores y alcance</p>
+<p class="TextoNormal" align="justify">En el
+Grupo Estructura se agregan las variables creadas a la estructura de la
+clase, también se pueden eliminar y cambiar el orden de estas. Set y
+Get permiten crear las operaciones de acceso correspondientes.</p>
+<p class="Imagen" align="center"><img src="clase017.png" height="87" width="358"></p>
+<p class="Imagen" align="center">Figura 12. Estructura de la clase</p>
+<p align="left" class="TextoNormal"><span class="TextoResaltado">En
+La pestaña de Operaciones </span> de la clase
+pueden ser agregadas las operaciones pertenecientes a la nueva clase<span class="Imagen">.</span></p>
+<p style="text-align: center;" class="Imagen"><span class="Imagen" style="text-align: center;"><img src="clase018.png" height="394" width="368"></span></p>
+<p style="text-align: center;" class="Imagen">Figura 13. Operaciones de la clase</p>
+<p class="TextoNormal" align="left">La Figura 14 muestra 
+el nombre de la operación y el tipo del dato de retorno, los argumentos
+son agregados directamente y se despliegan en forma de lista. </p>
+<p style="text-align: center;" class="Imagen"><img src="clase019.png" height="53" width="358"><img src="clase020.png" height="87" width="358"></p>
+<p style="text-align: center;" class="Imagen">Figura 14. Agregando operaciones</p>
+<p class="TextoNormal" align="left">La
+visibilidad de las operaciones puede ser seleccionada de entre Público,
+Protegido, privado o de Paquete. También el Alacance de Clasificador e
+Instancia y el tipo de implementación que puede ser Abstracta, Haciendo
+clic en el botón Cod/Com se puede agregar código de la operación.</p>
+<p style="text-align: center;" class="Imagen"><img src="clase021.png" height="42" width="358"><img src="clase023.png" height="78" width="358"></p>
+<p style="text-align: center;" class="Imagen">Figura 15. Propiedades de las operaciones</p>
+<p class="TextoNormal" align="left">Adicionalemente
+se pueden agregar modificadores a la clase:</p>
+<p style="text-align: center;" class="Imagen"><img src="clase022.png" height="42" width="358"></p>
+<p style="text-align: center;" class="Imagen">Figura 16. Modificadores para operaciones</p>
+<p class="TextoNormal" align="left">El
+elemento gráfico de clase posee diversos iconos
+contextuales de expansión, como en los demas elementos gráficos de
+coloso estos iconos permiten crean nuevos artefactos desde y hacia la
+clase: Agregación, Composición, Generalización, Realización, interface
+requerida, interface proveída. También permiten agregar directamente
+atributos de la clase a operaciones. </p>
+<p style="text-align: center;" class="Imagen"><img src="21.png" height="141" width="266"></p>
+<p style="text-align: center;" class="Imagen">Figura 17. Representaci&oacute;n de una clase</p>
+<p class="TextoNormal" align="left">El elemento
+gráfico de la clase se puede redimencionar, seleccionando en su
+especificación, para contenedor "Visible" y "Editable". </p>
+<p style="text-align: center;" class="Imagen"><img src="clase011.png" height="42" width="358"></p>
+<p style="text-align: center;" class="Imagen">Figura 18. Opciones del contenedor de una clase</p>
+<p class="style2" align="left">Con estas
+opciones seleccionadas se puede redimencionar el elemento haciendo clic
+sostenido en sus esquinas y arrastrando el cursor según se desee.</p>
+<p class="Imagen" align="center"><img src="clase083.png" height="118" width="136"></p>
+<p class="Imagen" align="center">Figura 19. Representaci&oacute;n de una clase</p>
+<p class="TextoNormal" align="left"><span class="TextoResaltado">Interface: </span><span class="style2">Contiene la
+  declaración propiedades y metodos pero no su implementación, las hacen
+  uso de esta mediante las realización si especifican la implementación
+  de la interface, también se puede generalizar la interface si hacen uso
+  de esta otras clases e inclusive otras interfaces.</span></p>
+<p class="TextoNormal" align="left">Para agregar
+una clase se selecciona el Icono Interface y luego se hace clic en
+alguna parte vacía del marco de Expresión.</p>
+<p class="Imagen" align="center"><img src="17.png" height="23" width="25"></p>
+<p class="Imagen" align="center">Figura 20. Icono de interface</p>
+<p class="TextoNormal" align="left">La Figura 21 muestra la ventana de especificación de la interface. Al igual que con
+otros elementos el dato mínimo requerido
+para generar la interface es un nombre diferente de
+anonymus.<span style="text-align: left;"> Opcionalmente se
+pueden ingresar los campos de
+estereotipo, autor y versión</span>, la interface se puede
+caracterizar con diferentes perfiles. Adicional a esto estan las
+propiedades comunes del contenedor y el
+elemento gráfico y la visibilidad de la interface con iconos.</p>
+<p class="Imagen" align="center"><img src="clase028.png" height="356" width="297"></p>
+<p class="Imagen" align="center">Figura 21. Propiedades generales de la interface</p>
+<p class="TextoNormal" align="left">En esta misma
+ventana en la pestaña Operaciones se pueden agregar las operaciones que
+pertenezcan a la interface recien creada. </p>
+<p class="TextoNormal" align="left">Los iconos
+contextuales de expansión del elemento Interface permiten crear
+generalizaciones desde y hacia la interface. Las realizaciones se crean
+separadamente hacia clases del diagrama.</p>
+<p style="text-align: center;" class="Imagen"><img src="20.png" height="98" width="134"></p>
+<p style="text-align: center;" class="Imagen">Figura 22. Representaci&oacute;n de la interface</p>
+<p class="TextoNormal" align="left"><span class="TextoResaltado">Interface
+Requerida:</span> <span class="TextoNormal">Otra forma
+de presentar interfaces es usando la forma Proveida/Requerida. Las
+clases e interfaces pueden especificar por medio de interfaces
+requeridas operaciones y servicios que otras clases implementan. </span></p>
+<p class="TextoNormal" align="left">Para agregar
+una Interface requerida, se puede halar desde el icono de expansión de
+un elemento clase, también se puede hacer seleccionando el Icono
+Interface Requerida y luego se hace clic sostenido sobre un elemento
+clase o interface del marco de Expresión y luego se arrastrar el cursor
+sobre un espacio en blanco o sobre otra interface o interface proveida.
+Las interfaces requeridas no se pueden crear aisladamente. </p>
+<p class="Imagen" align="center"><img src="clase079.png" height="22" width="122"></p>
+<p class="Imagen" align="center">Figura 23. Bot&oacute;n de interface requerida</p>
+<p class="TextoNormal" align="left">Seguido a la
+creación de la interface aparece la ventana de especificación de la
+interface, Al igual que con otros elementos el dato mínimo requerido
+para generar la interface requerida es un nombre diferente de
+anonymus.<span style="text-align: left;"> Opcionalmente se
+pueden ingresar los campos de
+estereotipo, autor y versión</span>, la interface se puede
+caracterizar con diferentes perfiles. Adicional a esto estan las
+propiedades comunes del contenedor y el
+elemento gráfico y la visibilidad de la interface con iconos.</p>
+<p style="text-align: center;" class="Imagen"><img src="clase035.png" height="386" width="318"></p>
+<p style="text-align: center;" class="Imagen">Figura 24. Propiedades de interface requerida</p>
+<p class="TextoNormal" align="left">En esta misma
+ventana en la pestaña Operaciones se pueden agregar las operaciones que
+pertenezcan a la interface recien creada. </p>
+<p class="TextoNormal" align="left">Los iconos
+contextuales de expansión del elemento Interface Requerida permiten
+crear generalizaciones desde y hacia la interface, las realizaciones se
+crean separadamente hacia clases del diagrama.</p>
+<p style="text-align: center;" class="Imagen"><img src="23.png" height="67" width="148"></p>
+<p style="text-align: center;" class="Imagen">Figura 25 Representaci&oacute;n de interface requerida</p>
+<p class="TextoNormal" align="left"><span class="TextoResaltado">Interfaz
+Proveída:</span><span class="style2"> La forma
+complementaria de la interface requerida, es la Interface <span class="TextoNormal">Proveída</span>, las clases que
+implementan las operaciones estan asociadas a las interfaces proveidas
+que especifican estas operaciones.</span></p>
+<p class="Imagen" align="center"><img src="clase081.png" height="22" width="122"></p>
+<p class="Imagen" align="center">Figura 26. Bot&oacute;n de interfaz proveida</p>
+<p class="TextoNormal" align="left">Para agregar
+una Interface Proveída, se puede halar desde el icono de expansión de
+un elemento clase, también se puede hacer seleccionando el Icono
+Interface Proveída y luego se hace clic sostenido sobre un elemento
+clase del marco de Expresión y luego se arrastrar el cursor sobre un
+espacio en blanco o sobre otra interface o interface Requerida. Las
+interfaces Proveídas no se pueden crear aisladamente. </p>
+<p class="Imagen" align="center"><img src="clase039.png" height="61" width="252"></p>
+<p class="Imagen" align="center">Figura 27. Interface prove&iacute;da conectada a clase</p>
+<p class="TextoNormal" align="left">Seguido a la
+creación de la interface aparece la ventana de especificación de la
+interface, Al igual que con otros elementos el dato mínimo requerido
+para generar la interface requerida es un nombre diferente de
+anonymus.<span style="text-align: left;"> Opcionalmente se
+pueden ingresar los campos de
+Estereotipo, autor y versión</span>, la interface se puede
+caracterizar con diferentes perfiles. Adicional a esto estan las
+propiedades comunes del contenedor y el
+elemento gráfico y la visibilidad de la interface con iconos.</p>
+<p class="Imagen" align="center"><img src="clase041.png" height="388" width="360"></p>
+<p class="Imagen" align="center">Figura 28. Propiedades de interface prove&iacute;da</p>
+<p class="TextoNormal" align="left">Los iconos
+contextuales de expansión del elemento Interface Proveida permiten
+crear generalizaciones desde y hacia la interface, las realizaciones se
+crean separadamente hacia clases del diagrama.</p>
+<p style="text-align: center;" class="Imagen"><img src="clase052.png" height="98" width="264"></p>
+<p style="text-align: center;" class="Imagen">Figura 29. Representaci&oacute;n de interface prove&iacute;da</p>
+<p class="TextoNormal" align="left">En el momento
+de la creación de interfaces Proveidas y Requeridas se pueden generar
+conexiones entre estas representando la existencia de un requerimiento
+que es a la vez implementado por otro elemento del diagrama. las
+interfaces proveidas y requeridas se pueden conectar entre sí o también
+pueden estar ligadas a elementos interface. las interfaces pueden estar
+conectadas en varios números permitiendo la multiplicidad en las
+implementaciones.</p>
+<p style="text-align: center;" class="Imagen"><img src="clase082.png" height="152" width="349"></p>
+<p style="text-align: center;" class="Imagen">Figura 30. M&uacute;ltiples conexiones a una interface prove&iacute;da</p>
+<p align="left"><span class="TextoResaltado">Puertos:</span>
+<span class="TextoNormal">Los puertos permiten
+representar flujos de información con relación a las clases en el
+Diagrama de clases. Los puertos se crean necesariamente sobre algún
+otro elemento clase por lo que siempre nunca se pueden crear de forma
+independiente.</span></p>
+<p class="TextoNormal" align="left">para crear un
+puerto se hace clic sobre el icono puerto y seguidamente se hace clic
+sobre un elemento clase del diagrama. </p>
+<p style="text-align: center;" class="Imagen"><img src="clase055.png" height="22" width="178"></p>
+<p style="text-align: center;" class="Imagen">Figura 31.Boton de creaci&oacute;n de puertos</p>
+<p class="TextoNormal" align="left">Seguidamente
+aparece la ventana de especificación del nuevo puerto en donde solo es
+necesario cambiar el nombre único del puerto, ostras especificaciones
+como tipo de dato y valor estan disponibles así como la dimensión del
+arreglo si se desea. </p>
+<p class="Imagen" align="center"><img src="clase057.png" height="101" width="358"></p>
+<p class="Imagen" align="center">Figura 32. Propiedades b&aacute;sicas de puertos</p>
+<p class="TextoNormal" align="left">Los modificadores
+del puerto permitidos se pueden escoger de entre: Hoja, Ordenada,
+Estática, Única, Derivada, Unión Derivada, Solo lectura.</p>
+<p class="Imagen" align="center"><img src="clase059.png" height="63" width="358"></p>
+<p class="Imagen" align="center">Figura 33. Modificadores de puertos</p>
+<p class="TextoNormal" align="left">La localización
+del puerto respecto del artefacto que lo contiene se puede ajustar para
+alterar su ubicación vertical y horizontal: Norte, Centrado o Sur;
+Occidente, Centrado, oriente.</p>
+<p class="Imagen" align="center"><img src="clase058.png" height="115" width="358"></p>
+<p class="Imagen" align="center">Figura 34. Localizaci&oacute;n de puertos</p>
+<p class="TextoNormal" align="left">El componente
+gráfico del puerto se puede redimencionar haciendo clic sobre un puerto
+y arrastrando uno de sus extremos.</p>
+<p class="Imagen" align="center"><img src="clase061.png" height="85" width="115"></p>
+<p class="Imagen" align="center">Figura 35. Redimensionando puerto</p>
+<p class="TextoNormal" align="left">El uso de los puertos se hace conjuntamente con el uso de interfaces tanto proveidas como requeridas e interfaces simples.</p>
+<p class="Imagen" align="center"><img src="clase085.png" height="81" width="321"></p>
+<p class="Imagen" align="center">Figura 36. Conectando interface requerida y enlace a puerto</p>
+<p class="TextoResaltado" align="center">&nbsp;</p>
+<p class="TextoNormal" align="left">Los puertos
+también se comunican utilizando el "Enlace a Puerto". para esto se
+seleccionael icono "Puerto a Puerto".</p>
+<p style="text-align: center;" class="Imagen"><img src="puerto021.png" height="22" width="424"></p>
+<p style="text-align: center;" class="Imagen">FIgura 37. Bot&oacute;n de creaci&oacute;n de enlace puerto a puerto</p>
+<p class="TextoNormal" align="left">Se hace clic
+sobre el primer puerto y luego se hace clic sobre el segundo puerto.</p>
+<p style="text-align: center;" class="Imagen"><img src="clase086.png" height="66" width="317"></p>
+<p style="text-align: center;" class="Imagen">Figura 38. Conexi&oacute;n puerto a puerto</p>
+<p align="left"><span class="TextoResaltado">Relaciones:
+</span><span class="style2">Las clases por si
+solas no proveen la información suficiente para entender como está
+diseñado un sistema, los diferentes tipos de relaciones en UML permiten
+establecer la semántica existente entre clases.</span></p>
+<p class="TextoNormal" align="left"><strong>Roles:
+</strong><span class="style2">Los Roles
+permiten establecer atributos propios de las clases tanto cliente como
+proveedor dentro de las múltiples relaciones que se pueden generar
+entre estas. Dependiendo del tipo de relación se podrá editar o no
+ciertos atributos del rol.</span></p>
+<p class="TextoNormal" align="left">La ventana de
+especificación de las relaciones, en general tiene los siguientes
+controles:</p>
+<p class="style2" align="left">En la primera
+pestaña "Texto" se podrá escribir el nombre de la relación o
+estereotipo asociado que se esté especificando.</p>
+<p class="Imagen" align="center"><img src="dependencia002.png" height="79" width="370"></p>
+<p class="Imagen" align="center">Figura 39. Estereotipo de rol</p>
+<p class="TextoNormal" align="left">En la segunda
+pestaña "Rol Cliente" y en la tercer pestaña "Rol Proveedor" se
+especifican los atributos de la clase cliente o Proveedor (según la
+dirección de la relación) de acuerdo a los diferentes roles que estas
+puedan tomar en la relación.</p>
+<p class="style2" align="left">Las
+características para los atributos de un rol son: </p>
+<ul>
+<li class="TextoNormal"> Nombre: del Rol que lo
+diferenciará de los otros roles.</li>
+<li class="TextoNormal">Tipo: Por defecto será el de
+la clase Cliente/Proveedor aunque puede ser seleccionado de la lista
+deplegable.</li>
+<li class="TextoNormal">Valor: valor del atributo del
+rol.</li>
+<li class="TextoNormal">Multiplicad: permite
+establecer la cardinalidad de la relación estableciendo la cantidad de
+instancias de la clase que pueden participan en la relación.</li>
+<li class="TextoNormal">Generar Rol: al activar este
+control auntomaticamente se creará un nuevo rol con el nombre
+especificado.</li>
+</ul>
+<p class="TextoNormal">Para editar un Rol existente se
+escribe en el campo Nombre el mismo asociado al rol que se quiere
+modificar.</p>
+<p class="Imagen" align="center"><img src="asociacion012.png" height="149" width="370"></p>
+<p class="Imagen" align="center">Figura 40. Rol de cliente</p>
+<p class="style2" align="left">También es
+editable la visibilidad correspondiente al rol : Publico, Protegido o
+Privado.</p>
+<p class="Imagen" align="center"><img src="asociacion004.png" height="42" width="358"></p>
+<p class="Imagen" align="center">Figura 41. Visibilidad del rol</p>
+<p class="style2" align="left">Los
+modificadores asociados al rol son los mismos que para los atributos:
+Transiente, Final, Volátil, Mutable. y su alcance Clasificador o
+Instancia.</p>
+<p class="Imagen" align="center"><img src="asociacion005.png" height="42" width="358"><img src="asociacion006.png" height="42" width="358"></p>
+<p class="Imagen" align="center">Figura 42. Modificadores y alcance del rol</p>
+<p class="TextoNormal" align="left">En el apartado
+Rol se listaran los diferentes atributos que han sido creados por los
+roles para la clase Cliente o Proveedor (respectivamente) dentro del
+diagrama y que pueden ser seleccionados (estar presentes como atributos
+de la clase). </p>
+<p class="TextoNormal" align="left">*Nota este
+control está asociado a la Clase y no a la relación, por lo tanto los
+roles que se activen o desactiven afectaran a la clase directamente sin
+importar la relación desde la que se editen. Algunos roles no serán
+visibles en la lista dependiendo del tipo de relación a la que
+pertenecen.</p>
+<p class="Imagen" align="center"><img src="asociacion007.png" height="87" width="358"></p>
+<p class="Imagen" align="center">Figura 43. Nota del rol</p>
+<p class="TextoNormal" align="left"><span class="TextoResaltado">Relación de Dependencia:</span>
+representa el tipo de relación más débil entre clases, indica el uso o
+conocimiento de otra clase.</p>
+<p class="TextoNormal" align="left">Para crear
+una nueva dependencia se hace clic sobre el icono Dependencia y luego
+se hace clic primero sobre la clase cliente o aquella que hace "uso" de
+otra clase , después se hace clic sobre la clase proveedora.</p>
+<p style="text-align: center;" class="Imagen"><img src="dependencia000.png" height="22" width="422"></p>
+<p style="text-align: center;" class="Imagen">Figura 44. Bot&oacute;n de creaci&oacute;n del rol de dependencia</p>
+<p class="TextoNormal" align="left">Inmediatamente
+se abre la ventana de especificación de la nueva relación, desplegando
+la primera pestaña de Texto en la que se escribe el nombre
+correspondiente al estereotipo de la relación.</p>
+<p class="TextoNormal" align="left">Las
+relaciones de dependencia permiten editar únicamente el nombre de los
+roles Cliente y Proveedor.</p>
+<p class="style2" align="left">Las
+dependencias lucen como sigue, la clase 1 "hace uso" de la Clase2.</p>
+<p class="Imagen" align="center"><img src="dependencia008.png" height="59" width="319"></p>
+<p class="Imagen" align="center">Figura 45. Dependencia entre clases</p>
+<p class="style2" align="left">Las
+dependencias también se pueden dar desde una clase hacia cualquier tipo
+de interface y entre cualquier par de cualquier tipo de interface.</p>
+<p class="TextoNormal" align="left"><span class="TextoResaltado">Relación de
+Asociación:</span> Relación más
+fuerte que la Dependencia asociada a usos extendidos de tiempo de una
+clase por otra, se entiende como una relación "tiene".</p>
+<p class="TextoNormal" align="left">Para crear
+una nueva dependencia se hace clic sobre el icono Asociación y luego se
+hace clic primero sobre una clase A o cliente y después se hace clic en
+una segunda clase B proveedor, para generar la asociación de tipo "A
+tiene un B".</p>
+<p style="text-align: center;" class="Imagen"><img src="asociacion000.png" height="22" width="422"></p>
+<p style="text-align: center;" class="Imagen">Figura 46. Bot&oacute;n de creaci&oacute;n de relaci&oacute;n de asociaci&oacute;n</p>
+<p class="style2" align="left">Aparece la ventana de especificación de la
+relación, desplegando la primera pestaña de Texto en la que se escribe
+el nombre correspondiente al estereotipo de la relación.</p>
+<p class="TextoNormal" align="left">Las
+relaciones de Asociación permiten editar todas las características de
+los roles descritas previamente.</p>
+<p class="TextoNormal" align="left"><span class="style2">Las Asociaciones lucen como sigue, también se
+pueden ver los Roles creados en esta Asociación: rol1(Cliente) y rolA
+(Proveedor)</span>.</p>
+<p class="Imagen" align="center"><img src="asociacionunidir002.png" height="88" width="403"></p>
+<p class="Imagen" align="center">Figura 47. Etiquetas de roles en la relaci&oacute;n de asociaci&oacute;n</p>
+<p class="style2" align="left"><span class="style2">Las asociaciones también se pueden dar desde
+una clase hacia cualquier tipo de interfac</span>e.</p>
+<p align="left"><span class="TextoResaltado">Asociaciones
+Unidireccionales: </span><span class="style2">Cuando
+la navegavilidad de una asociación se da en una sola dirección (De A
+hacia B sin retorno) la línea de la asociación se decora con una flecha
+indicando la dirección correcta en la cual se da la relación.</span></p>
+<p class="TextoNormal">Para crear una nueva relación se
+hace clic sobre el icono Asociación Unidireccional y luego se hace clic
+primero sobre la clase Cliente y seguidamente se hace clic en una
+segunda clase (Proveedor).</p>
+<p class="Imagen" align="center"><img src="asociacionunidir000.png" height="22" width="422"></p>
+<p class="Imagen" align="center">Figura 48. Bot&oacute;n de creaci&oacute;n de asociaci&oacute;n unidireccional</p>
+<p class="TextoNormal" align="left">Es posible editar la especificación de la relación, desplegando
+la primera pestaña de Texto en la que se escribe el nombre
+correspondiente al estereotipo de la relación.</p>
+<p class="TextoNormal" align="left">La asociación
+unidireccional permite establecer los nombres de Rol Cliente/Proveedor
+y editar las características únicamente del Rol Proveedor.</p>
+<p class="TextoNormal" align="left">La
+Composición luce como sigue:</p>
+<p class="Imagen" align="center"><img src="asociacionunidir004.png" height="143" width="412"></p>
+<p class="Imagen" align="center">Figura 49. Representaci&oacute;n de asociaci&oacute;n unidireccional</p>
+<span class="TextoNormal">Las asociaciones
+unidireccionales también se pueden dar desde una clase hacia cualquier
+tipo de interface. </span>
+<p align="left"><span class="TextoResaltado">Agregación:
+</span><span class="style2"> Asocia clases que
+componen a otras clases mas generales denotando "pertenencia", Las
+relaciones de agregación se muestran por una punta de flecha con forma
+de diamante apuntando hacia la clase más general</span>.</p>
+<p class="TextoNormal" align="left">Para crear
+una nueva relación se hace clic sobre el icono Agregación y luego se
+hace clic primero sobre la clase Cliente (Más General) y después se
+hace clic en la segunda clase Proveedor (Más Especifica).</p>
+<p class="Imagen" align="center"><img src="asociacionunidir006.png" height="22" width="422"></p>
+<p class="Imagen" align="center">Figura 50. Bot&oacute;n de creaci&oacute;n de agregaci&oacute;n</p>
+<p class="TextoNormal" align="left">Es posible modificar  de especificación de la relación, desplegando
+la primera pestaña de Texto en la que se escribe el nombre
+correspondiente al estereotipo de la relación.</p>
+<p class="TextoNormal" align="left">La agregación
+permite establecer los nombres de Rol Cliente/Proveedor y editar las
+características únicamente del Rol Proveedor.</p>
+<p class="TextoNormal" align="left">La agregación
+luce como sigue:</p>
+<p class="Imagen" align="center"><img src="asociacionunidir007.png" height="131" width="342"></p>
+<p class="Imagen" align="center">Figura 51. Representaci&oacute;n de agregaci&oacute;n</p>
+<p class="style2" align="left">La agregación
+también se pueden dar desde una clase hacia cualquier tipo de interface.</p>
+<p align="left"><span class="TextoResaltado">Composición:
+</span><span class="style2"> Asocia clases que
+estan contenidas por clases mas generales denotando "Es Parte De", son
+mucho más fuertes que la agregación e implican que la instancia de la
+clase especifica es destruida si la instancia de la clase más general
+lo es. Las relaciones de agregación se muestran por una punta de flecha
+con forma de diamante relleno apuntando hacia la clase más general</span>.</p>
+<p class="TextoNormal" align="left">Para crear
+una nueva relación se hace clic sobre el icono Composición y luego se
+hace clic primero sobre la clase Cliente (Más General) y después se
+hace clic en la segunda clase Proveedor (Más Especifica).</p>
+<p class="Imagen" align="center"><img src="asociacionunidir008.png" height="22" width="422"></p>
+<p class="Imagen" align="center">Figura 52. Bot&oacute;n de creaci&oacute;n de composici&oacute;n</p>
+<p class="style2" align="left">Es posible modificar la  especificación de la relación, <span class="TextoNormal">desplegando
+la primera pestaña de Texto en la que se escribe el nombre
+correspondiente al estereotipo de la relación.</span></p>
+<p class="style2" align="left">La composición
+permite establecer los nombres de Rol Cliente/Proveedor y editar las
+características únicamente del Rol Proveedor.</p>
+<p class="style2" align="left">La agregación
+luce como sigue:</p>
+<p class="Imagen" align="center"><img src="asociacionunidir010.png" height="76" width="342"></p>
+<p class="Imagen" align="center">Figura 53.Representaci&oacute;n de composici&oacute;n</p>
+<p class="TextoNormal" align="left">La composición
+también se pueden dar desde una clase hacia cualquier tipo de interface.</p>
+<p align="left" class="TextoNormal"><span class="TextoResaltado">Generalización:  </span>Asocia
+interfaces y clases más generales o con menos detalles con otras que expanden la
+semántica de las anteriores (respectivamente) o que tienen un nivel de detalle mayor.
+Suelen estar asociadas a la connotación "Es Un".</p>
+<p class="TextoNormal" align="left">Para crear
+una nueva generalización se hace clic sobre el icono Generalización y
+al hacer clic sobre la interface más específica y después
+sobre la interface más general.</p>
+<p class="Imagen" align="center"><img src="asociacionunidir012.png" height="22" width="422"></p>
+<p class="Imagen" align="center">Figura 54. Bot&oacute;n de creaci&oacute;n de generalizaci&oacute;n</p>
+<p class="style2" align="left">Aparece la
+ventana de especificación de la relación, <span class="TextoNormal">desplegando
+la primera pestaña de texto en la que se escribe el nombre
+correspondiente al estereotipo de la relación.</span></p>
+<p class="style2" align="left">La
+generalización no posee algún tipo de Rol bien sea Cliente o Proveedor.</p>
+<p class="style2" align="left">La agregación
+luce como sigue:</p>
+<p class="Imagen" align="center"><img src="asociacionunidir014.png" height="209" width="328"></p>
+<p class="Imagen" align="center">Figura 55. Diferentes representaciones de una generalizaci&oacute;n</p>
+<p class="TextoNormal" align="left">La
+Generalización no se puede crear desde clases hacia interfaces puesto
+que una clase no puede generalizar una interface.</p>
+<p align="left" class="TextoNormal"><span class="TextoResaltado">Realización:</span>  Asocia clases
+que implementan las operaciones de las Interfaces, las interfaces
+establecen el contrato de los metodos y las operaciones y las clases
+que las realizan detallan como es la implementación. Una realización se
+muestra como una línea de trazos con una punta de flecha sólida que
+apunta a la interface.</p>
+<p class="TextoNormal" align="left">Para crear
+una nueva realización se hace clic sobre el icono realización y luego
+se hace clic primero sobre la clase y después se hace clic en la
+interface.</p>
+<p class="Imagen" align="center"><img src="asociacionunidir012.png" height="22" width="422"></p>
+<p class="Imagen" align="center">Figura 56. Bot&oacute;n de creaci&oacute;n de una realizaci&oacute;n</p>
+<p class="TextoNormal" align="left">Es posible modificar la especificación de la relación, desplegando
+la primera pestaña de Texto en la que se escribe el nombre
+correspondiente al estereotipo de la relación.</p>
+<p class="TextoNormal" align="left">La Realización
+no posee algún tipo de Rol bien sea Cliente o Proveedor.</p>
+<p class="TextoNormal" align="left">La Realización
+luce como sigue:</p>
+<p class="Imagen" align="center"><img src="asociacionunidir015.png" height="220" width="407"></p>
+<p class="Imagen" align="center">Figura 57. Representaci&oacute;n de una realizaci&oacute;n</p></td>
+</tr>
+</tbody>
+</table>
+</body></html>

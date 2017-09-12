@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- estreotipo de bloques -->
+<bloques>  
+  <bloque instancia="Proceso" categoria="elemento">
+    <estereotipo>cascada</estereotipo>
+    <estereotipo>waterfall</estereotipo>
+    <estereotipo>espiral</estereotipo>
+    <estereotipo>spiral</estereotipo>
+    <estereotipo>iterativo</estereotipo>
+    <estereotipo>iterative</estereotipo>
+    <estereotipo>incremental</estereotipo>
+    <estereotipo>incremental</estereotipo>
+    <estereotipo>lineal</estereotipo> 
+    <estereotipo>linear</estereotipo> 
+    <estereotipo>paralelo</estereotipo>     
+    <estereotipo>parallel</estereotipo>
+    <estereotipo>metaproceso</estereotipo>
+    <estereotipo>metaprocess</estereotipo>    
+  </bloque>
+  <bloque instancia="Metodologia" categoria="elemento">
+    <estereotipo>agiles</estereotipo>
+    <estereotipo>agils</estereotipo>
+    <estereotipo>convencional</estereotipo>
+    <estereotipo>conventional</estereotipo>
+    <estereotipo>ortodoxo</estereotipo>
+    <estereotipo>orthodox</estereotipo>
+    <estereotipo>heterodoxo</estereotipo> 
+    <estereotipo>heterodox</estereotipo>
+    <estereotipo>paralelo</estereotipo>    
+    <estereotipo>parallel</estereotipo>
+    <estereotipo>metametodología</estereotipo>
+    <estereotipo>metametodologhy</estereotipo>    
+  </bloque>
+  <bloque instancia="Fase" categoria="elemento">
+    <estereotipo>concepcion</estereotipo>
+    <estereotipo>inception</estereotipo>
+    <estereotipo>elaboracion</estereotipo> 
+    <estereotipo>elaboration</estereotipo>
+    <estereotipo>construccion</estereotipo>
+    <estereotipo>construction</estereotipo>
+    <estereotipo>transicion</estereotipo>
+    <estereotipo>transition</estereotipo>        
+  </bloque>
+  <bloque instancia="Actividad" categoria="elemento">
+    <estereotipo>inicial</estereotipo>
+    <estereotipo>initial</estereotipo>
+    <estereotipo>fin</estereotipo> 
+    <estereotipo>end</estereotipo>
+    <estereotipo>analisis</estereotipo>
+    <estereotipo>analysis</estereotipo>
+    <estereotipo>desiño</estereotipo>
+    <estereotipo>design</estereotipo> 
+    <estereotipo>implementacion</estereotipo>    
+    <estereotipo>implementation</estereotipo>
+    <estereotipo>mantenimiento</estereotipo>
+    <estereotipo>maintenance</estereotipo>
+    <estereotipo>integracion</estereotipo>
+    <estereotipo>integration</estereotipo>
+    <estereotipo>validacion</estereotipo>
+    <estereotipo>validation</estereotipo>
+    <estereotipo>verificacion</estereotipo>
+    <estereotipo>verification</estereotipo>    
+  </bloque>
+  <bloque instancia="Tarea" categoria="elemento">
+    <estereotipo>prueba</estereotipo>
+    <estereotipo>proof</estereotipo>
+    <estereotipo>inspeccion</estereotipo>
+    <estereotipo>inspection</estereotipo>
+    <estereotipo>seguimiento</estereotipo>
+    <estereotipo>trace</estereotipo>
+    <estereotipo>codificar</estereotipo>
+    <estereotipo>codify</estereotipo> 
+    <estereotipo>depurar</estereotipo>   
+    <estereotipo>debug</estereotipo>
+    <estereotipo>medida</estereotipo>
+    <estereotipo>measure</estereotipo>
+    <estereotipo>documento</estereotipo>
+    <estereotipo>document</estereotipo>
+    <estereotipo>reporte</estereotipo>
+    <estereotipo>report</estereotipo>
+    <estereotipo>organizacion</estereotipo>
+    <estereotipo>deploy</estereotipo>
+    <estereotipo>ejecucion</estereotipo>
+    <estereotipo>execute</estereotipo>
+    <estereotipo>compilacion</estereotipo>
+    <estereotipo>compile</estereotipo>
+    <estereotipo>almacenar</estereotipo>
+    <estereotipo>storage</estereotipo>
+  </bloque>
+  <bloque instancia="Instruccion" categoria="elemento">
+    <estereotipo>ciclo</estereotipo>
+    <estereotipo>loop</estereotipo>
+    <estereotipo>condicional</estereotipo>
+    <estereotipo>conditional</estereotipo>
+    <estereotipo>sentencia</estereotipo>
+    <estereotipo>sentence</estereotipo>    
+  </bloque>
+  <bloque instancia="Indicacion" categoria="elemento">
+    <estereotipo>meta</estereotipo>
+    <estereotipo>objective</estereotipo>
+    <estereotipo>objectivo</estereotipo>
+    <estereotipo>goal</estereotipo>
+    <estereotipo>fortaleza</estereotipo>
+    <estereotipo>strengths</estereotipo>
+    <estereotipo>opportunidad</estereotipo>
+    <estereotipo>opportunities</estereotipo>
+    <estereotipo>mision</estereotipo>
+    <estereotipo>mission</estereotipo>
+    <estereotipo>vision</estereotipo>
+    <estereotipo>vision</estereotipo>
+  </bloque>
+  <bloque instancia="Contraindicacion" categoria="elemento">
+    <estereotipo>riesgo</estereotipo>
+    <estereotipo>risk</estereotipo>
+    <estereotipo>limite</estereotipo>
+    <estereotipo>scope</estereotipo>
+    <estereotipo>fallo</estereotipo>
+    <estereotipo>fail</estereotipo>
+    <estereotipo>restriccion</estereotipo>
+    <estereotipo>constraint</estereotipo>
+    <estereotipo>defecto</estereotipo>
+    <estereotipo>defect</estereotipo>
+    <estereotipo>hilo</estereotipo>
+    <estereotipo>threats</estereotipo>
+    <estereotipo>debilidad</estereotipo>
+    <estereotipo>weaknesses</estereotipo>
+  </bloque>
+  <bloque instancia="Actor" categoria="elemento">
+    <estereotipo>nombre</estereotipo>
+    <estereotipo>name</estereotipo>
+    <estereotipo>alias</estereotipo>
+    <estereotipo>nickname</estereotipo>
+    <estereotipo>pseudonimo</estereotipo>
+    <estereotipo>pseudonym</estereotipo>
+    <estereotipo>cliente</estereotipo>  
+    <estereotipo>client</estereotipo>
+    <estereotipo>patrocinador</estereotipo>    
+    <estereotipo>sponsor</estereotipo>
+    <estereotipo>lider</estereotipo>    
+    <estereotipo>leader</estereotipo>
+  </bloque>
+  <bloque instancia="Rol" categoria="elemento">
+    <estereotipo>ingeniero de proceso</estereotipo>
+    <estereotipo>process engineer</estereotipo>
+    <estereotipo>arquitecto de proceso</estereotipo>
+    <estereotipo>process architect</estereotipo>
+    <estereotipo>gestor de proceso</estereotipo>
+    <estereotipo>process manager</estereotipo>
+    <estereotipo>innovador de proceso</estereotipo>
+    <estereotipo>process innover</estereotipo>
+    <estereotipo>ingeniero de requerimientos</estereotipo>
+    <estereotipo>requirement engineer</estereotipo>
+    <estereotipo>ingeniero de comonentes</estereotipo>
+    <estereotipo>component engineer</estereotipo> 
+    <estereotipo>ingeniero de sistemas</estereotipo>
+    <estereotipo>system engineer</estereotipo>
+    <estereotipo>analista de sistemas</estereotipo>        
+    <estereotipo>system analyst</estereotipo>
+    <estereotipo>diseñador de sistemas</estereotipo>
+    <estereotipo>system designer</estereotipo> 
+    <estereotipo>gestor oeracional</estereotipo> 
+    <estereotipo>operational manager</estereotipo> 
+    <estereotipo>arquitecto de software</estereotipo>
+    <estereotipo>software architect</estereotipo>
+    <estereotipo>arquitecto de dominio</estereotipo>    
+    <estereotipo>domine architect</estereotipo> 
+    <estereotipo>arquitecto de aplicacion</estereotipo>    
+    <estereotipo>aplication architect</estereotipo> 
+    <estereotipo>arquitecto empresarial</estereotipo>
+    <estereotipo>enterprise architect</estereotipo> 
+    <estereotipo>arquitecto de infraestructura</estereotipo>
+    <estereotipo>infraestructure architect</estereotipo>
+    <estereotipo>ingeniero de pruebas</estereotipo>
+    <estereotipo>test enginner</estereotipo>
+    <estereotipo>ingeniero de gestion semantica</estereotipo>
+    <estereotipo>semantic mangement engineer</estereotipo>
+    <estereotipo>ingeniero de programacion</estereotipo>
+    <estereotipo>programming engineer</estereotipo>
+    <estereotipo>ingeniero cazador de defectos</estereotipo>
+    <estereotipo>bug hunter engineer</estereotipo>
+    <estereotipo>ingeniero de desarrollo</estereotipo>
+    <estereotipo>development engineer</estereotipo>
+  </bloque>
+  <bloque instancia="Insumo" categoria="elemento">
+    <estereotipo>requiremento</estereotipo>    
+    <estereotipo>requirement</estereotipo>
+    <estereotipo>requiremento funcional</estereotipo>  
+    <estereotipo>functional requirement</estereotipo>
+    <estereotipo>requiremento no funcional</estereotipo>
+    <estereotipo>non-functional requirment</estereotipo>
+    <estereotipo>contrato</estereotipo> 
+    <estereotipo>contract</estereotipo> 
+    <estereotipo>acuerdo</estereotipo>   
+    <estereotipo>agree</estereotipo> 
+    <estereotipo>recurso</estereotipo>   
+    <estereotipo>resources</estereotipo>
+    <estereotipo>producto</estereotipo>  
+    <estereotipo>product backlog</estereotipo>
+  </bloque>
+  <bloque instancia="Resultado" categoria="elemento">
+    <estereotipo>producto</estereotipo>
+    <estereotipo>product</estereotipo>
+    <estereotipo>servicio</estereotipo>
+    <estereotipo>service</estereotipo>    
+  </bloque>
+  <bloque instancia="Blando" categoria="elemento">
+    <estereotipo>intelecto</estereotipo>
+    <estereotipo>intellect</estereotipo>
+    <estereotipo>inteligencia</estereotipo> 
+    <estereotipo>intelligence</estereotipo>
+    <estereotipo>experticia</estereotipo>    
+    <estereotipo>expertise</estereotipo> 
+    <estereotipo>piloso</estereotipo> 
+    <estereotipo>smart</estereotipo>  
+    <estereotipo>cualificacion</estereotipo> 
+    <estereotipo>qualification</estereotipo>
+    <estereotipo>facultad</estereotipo> 
+    <estereotipo>faculty</estereotipo>
+    <estereotipo>competencia</estereotipo> 
+    <estereotipo>competency</estereotipo> 
+    <estereotipo>abilidad</estereotipo>  
+    <estereotipo>ability</estereotipo>
+    <estereotipo>aptitud</estereotipo>  
+    <estereotipo>aptitude</estereotipo>    
+  </bloque>
+  <bloque instancia="Duro" categoria="elemento">
+    <estereotipo>informacion</estereotipo>
+    <estereotipo>information</estereotipo>
+    <estereotipo>dato</estereotipo>
+    <estereotipo>data</estereotipo> 
+     <estereotipo>estadistica</estereotipo> 
+    <estereotipo>statistic</estereotipo>          
+  </bloque>
+  <bloque instancia="Documento" categoria="elemento">
+    <estereotipo>reporte</estereotipo>
+    <estereotipo>report</estereotipo>
+    <estereotipo>articulo</estereotipo>
+    <estereotipo>paper</estereotipo> 
+    <estereotipo>documento</estereotipo>
+    <estereotipo>document</estereotipo>          
+  </bloque>
+  <bloque instancia="Nota" categoria="elemento">
+    <estereotipo>recibo</estereotipo>
+    <estereotipo>bill</estereotipo>     
+  </bloque>
+  <bloque instancia="Texto" categoria="elemento">
+    <estereotipo>item</estereotipo>
+    <estereotipo>item</estereotipo>     
+  </bloque>
+  <bloque instancia="Relacional" categoria="elemento">
+    <estereotipo>y</estereotipo>
+    <estereotipo>and</estereotipo>
+    <estereotipo>o</estereotipo>
+    <estereotipo>or</estereotipo>
+    <estereotipo>xor</estereotipo>
+    <estereotipo>xor</estereotipo>
+    <estereotipo>implicacion</estereotipo>
+    <estereotipo>implication</estereotipo>
+    <estereotipo>bicondicional</estereotipo> 
+    <estereotipo>biconditional</estereotipo>    
+  </bloque>
+  <bloque instancia="Transaccional" categoria="elemento">
+    <estereotipo>sinchronizacion</estereotipo>
+    <estereotipo>sinchronization</estereotipo>
+    <estereotipo>paralelo</estereotipo>
+    <estereotipo>parallel</estereotipo>
+    <estereotipo>union</estereotipo>    
+    <estereotipo>join</estereotipo>
+    <estereotipo>separacion</estereotipo>
+    <estereotipo>disjoin</estereotipo>      
+  </bloque>
+</bloques>
+

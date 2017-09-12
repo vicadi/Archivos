@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- regla de ReglaDeRealizacion -->
+<relaciones>
+ <relacion tipo="Personalizada">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.agrupacion.Frame</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.agrupacion.Frame</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.agrupacion.Sistema</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.estructurales.Interface</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.estructurales.Clase</fuente>
+  <tipoDeFuente>1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.estructurales.Interface</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.estructurales.Colaboracion</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.estructurales.CasoDeUso</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.estructurales.Componente</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.estructurales.Interface</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+</relaciones>

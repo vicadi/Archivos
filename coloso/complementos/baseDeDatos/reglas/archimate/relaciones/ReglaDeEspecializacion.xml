@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- regla de ReglaDeEspecializacion -->
+<relaciones>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.capas.negocio.Ubicacion</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.capas.negocio.Ubicacion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.capas.negocio.ActorDeNegocio</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.capas.negocio.ActorDeNegocio</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.capas.negocio.RolDeNegocio</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.capas.negocio.RolDeNegocio</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.capas.negocio.ColaboracionDeNegocio</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.capas.negocio.RolDeNegocio</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.capas.negocio.ColaboracionDeNegocio</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.capas.negocio.ColaboracionDeNegocio</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.capas.negocio.InterfaceDeNegocio</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.capas.negocio.InterfaceDeNegocio</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.capas.negocio.ObjetoDeNegocio</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.capas.negocio.ObjetoDeNegocio</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.capas.negocio.ObjetoDeNegocio</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.informacionales.capas.negocio.Contrato</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.comportamiento.capas.negocio.EventoDeNegocio</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.comportamiento.capas.negocio.EventoDeNegocio</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.comportamiento.capas.negocio.FuncionDeNegocio</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.comportamiento.capas.negocio.FuncionDeNegocio</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.comportamiento.capas.negocio.InteraccionDeNegocio</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.comportamiento.capas.negocio.InteraccionDeNegocio</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.Interface</fuente>
+  <tipoDeFuente>20</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.Interface</objetivo>
+  <tipoDeObjetivo>20</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.Interface</fuente>
+  <tipoDeFuente>24</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.Interface</objetivo>
+  <tipoDeObjetivo>24</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.comportamiento.capas.negocio.ProcesoDeNegocio</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.comportamiento.capas.negocio.ProcesoDeNegocio</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.comportamiento.capas.negocio.ServicioDeNegocio</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.comportamiento.capas.negocio.ServicioDeNegocio</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.informacionales.capas.negocio.Contrato</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.capas.negocio.ObjetoDeNegocio</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.informacionales.capas.negocio.Contrato</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.informacionales.capas.negocio.Contrato</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.informacionales.capas.negocio.Producto</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.informacionales.capas.negocio.Producto</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.informacionales.capas.negocio.Representacion</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.informacionales.capas.negocio.Representacion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.informacionales.capas.negocio.Significado</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.informacionales.capas.negocio.Significado</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.informacionales.capas.negocio.Valor</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.informacionales.capas.negocio.Valor</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.capas.aplicacion.ColaboracionDeAplicacion</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.capas.aplicacion.ColaboracionDeAplicacion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.capas.aplicacion.ColaboracionDeAplicacion</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.capas.aplicacion.ComponenteDeAplicacion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.capas.aplicacion.ComponenteDeAplicacion</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.capas.aplicacion.ComponenteDeAplicacion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.capas.aplicacion.InterfaceDeAplicacion</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.capas.aplicacion.InterfaceDeAplicacion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.Interface</fuente>
+  <tipoDeFuente>36</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.Interface</objetivo>
+  <tipoDeObjetivo>36</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.Interface</fuente>
+  <tipoDeFuente>40</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.Interface</objetivo>
+  <tipoDeObjetivo>40</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.capas.aplicacion.ObjetoDeDatos</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.capas.aplicacion.ObjetoDeDatos</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.comportamiento.capas.aplicacion.FuncionDeAplicacion</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.comportamiento.capas.aplicacion.FuncionDeAplicacion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.comportamiento.capas.aplicacion.InteraccionDeAplicacion</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.comportamiento.capas.aplicacion.FuncionDeAplicacion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.comportamiento.capas.aplicacion.InteraccionDeAplicacion</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.comportamiento.capas.aplicacion.InteraccionDeAplicacion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.comportamiento.capas.aplicacion.ServicioDeAplicacion</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.comportamiento.capas.aplicacion.ServicioDeAplicacion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.capas.tecnologia.SistemaDeSoftware</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.capas.tecnologia.SistemaDeSoftware</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.capas.tecnologia.SistemaDeSoftware</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.capas.tecnologia.Nodo</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.capas.tecnologia.Dispositivo</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.capas.tecnologia.Dispositivo</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.capas.tecnologia.Dispositivo</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.capas.tecnologia.Nodo</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.capas.tecnologia.InterfaceDeInfraestructura</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.capas.tecnologia.InterfaceDeInfraestructura</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.Interface</fuente>
+  <tipoDeFuente>68</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.Interface</objetivo>
+  <tipoDeObjetivo>68</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.Interface</fuente>
+  <tipoDeFuente>72</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.Interface</objetivo>
+  <tipoDeObjetivo>72</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.capas.tecnologia.Nodo</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.capas.tecnologia.Nodo</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.capas.tecnologia.Red</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.capas.tecnologia.Red</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.capas.tecnologia.RutaDeComunicacion</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.estructurales.capas.tecnologia.RutaDeComunicacion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.comportamiento.capas.tecnologia.ServicioDeInfraestructura</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.comportamiento.capas.tecnologia.ServicioDeInfraestructura</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.comportamiento.capas.tecnologia.FuncionDeInfraestructura</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.comportamiento.capas.tecnologia.FuncionDeInfraestructura</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.informacionales.capas.tecnologia.Artefacto</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.informacionales.capas.tecnologia.Artefacto</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Implicado</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Implicado</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Manejador</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Manejador</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Valoracion</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Valoracion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Objetivo</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Objetivo</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Requerimiento</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Objetivo</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Requerimiento</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Requerimiento</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Requerimiento</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Restriccion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Restriccion</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Objetivo</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Restriccion</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Requerimiento</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Restriccion</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Restriccion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Principio</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.motivacionales.Principio</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.implementacionMigracion.PaqueteDeTrabajo</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.implementacionMigracion.PaqueteDeTrabajo</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.implementacionMigracion.Liberable</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.implementacionMigracion.Liberable</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.implementacionMigracion.Meseta</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.implementacionMigracion.Meseta</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.implementacionMigracion.Brecha</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.conceptos.extensiones.implementacionMigracion.Brecha</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.archimate.logica.core.bloquesDeConstruccion.relaciones.otras.Union</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.archimate.logica.core.bloquesDeConstruccion.relaciones.otras.Union</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+</relaciones>

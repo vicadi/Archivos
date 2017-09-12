@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- regla de ReglaDeEnlace -->
+<relaciones>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.anotacion.Nota</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.estructurales.Clase</objetivo>
+  <tipoDeObjetivo>1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.anotacion.Nota</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.estructurales.Interface</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.estructurales.Clase</fuente>
+  <tipoDeFuente>1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.anotacion.Nota</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.uml.logica.core.bloquesDeConstruccion.elementos.estructurales.Interface</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.uml.logica.core.bloquesDeConstruccion.elementos.anotacion.Nota</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+</relaciones>

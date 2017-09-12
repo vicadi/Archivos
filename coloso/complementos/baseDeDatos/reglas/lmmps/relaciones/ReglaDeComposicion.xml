@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- regla de ReglaDeComposicion -->
+<relaciones>
+ <relacion tipo="Personalizada">
+  <fuente>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.estructurales.objeto.artefacto.Interface</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.estructurales.objeto.artefacto.Interface</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Personalizada">
+  <fuente>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.estructurales.objeto.artefacto.Interface</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.estructurales.objeto.artefacto.Interface</objetivo>
+  <tipoDeObjetivo>4</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Personalizada">
+  <fuente>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.estructurales.objeto.artefacto.Interface</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.estructurales.objeto.artefacto.Interface</objetivo>
+  <tipoDeObjetivo>8</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Personalizada">
+  <fuente>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.estructurales.objeto.artefacto.Interface</fuente>
+  <tipoDeFuente>4</tipoDeFuente>
+  <objetivo>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.estructurales.objeto.artefacto.Interface</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Personalizada">
+  <fuente>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.estructurales.objeto.artefacto.Interface</fuente>
+  <tipoDeFuente>4</tipoDeFuente>
+  <objetivo>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.estructurales.objeto.artefacto.Interface</objetivo>
+  <tipoDeObjetivo>4</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Personalizada">
+  <fuente>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.estructurales.objeto.artefacto.Interface</fuente>
+  <tipoDeFuente>4</tipoDeFuente>
+  <objetivo>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.estructurales.objeto.artefacto.Interface</objetivo>
+  <tipoDeObjetivo>8</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Personalizada">
+  <fuente>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.estructurales.objeto.artefacto.Interface</fuente>
+  <tipoDeFuente>8</tipoDeFuente>
+  <objetivo>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.estructurales.objeto.artefacto.Interface</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Personalizada">
+  <fuente>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.estructurales.objeto.artefacto.Interface</fuente>
+  <tipoDeFuente>8</tipoDeFuente>
+  <objetivo>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.estructurales.objeto.artefacto.Interface</objetivo>
+  <tipoDeObjetivo>4</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Personalizada">
+  <fuente>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.estructurales.objeto.artefacto.Interface</fuente>
+  <tipoDeFuente>8</tipoDeFuente>
+  <objetivo>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.estructurales.objeto.artefacto.Interface</objetivo>
+  <tipoDeObjetivo>8</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.funcionales.objeto.estrategia.Metodologia</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.funcionales.objeto.estrategia.Proceso</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.funcionales.objeto.estrategia.Proceso</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.funcionales.objeto.mecanismo.Fase</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+</relaciones>

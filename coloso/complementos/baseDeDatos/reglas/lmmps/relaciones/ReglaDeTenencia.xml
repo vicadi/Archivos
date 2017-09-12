@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- regla de ReglaDeTenencia -->
+<relaciones>
+ <relacion tipo="Estandar">
+  <fuente>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.estructurales.objeto.participante.Rol</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.cognitivos.objeto.Blando</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.estructurales.objeto.artefacto.Insumo</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.estructurales.objeto.artefacto.Resultado</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.funcionales.objeto.estrategia.Metodologia</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.estructurales.objeto.artefacto.Insumo</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.funcionales.objeto.estrategia.Metodologia</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.funcionales.objeto.pauta.Contraindicacion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.funcionales.objeto.estrategia.Metodologia</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.funcionales.objeto.pauta.Indicacion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.funcionales.objeto.estrategia.Proceso</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.estructurales.objeto.artefacto.Insumo</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.funcionales.objeto.estrategia.Proceso</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.funcionales.objeto.pauta.Contraindicacion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.funcionales.objeto.estrategia.Proceso</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.funcionales.objeto.pauta.Indicacion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.funcionales.objeto.mecanismo.Actividad</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.funcionales.objeto.pauta.Indicacion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.lmmps.logica.core.bloquesDeConstruccion.elementos.complementarios.informacionales.meta.MInformacional</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.funcionales.objeto.pauta.Contraindicacion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.lmmps.logica.core.bloquesDeConstruccion.elementos.complementarios.informacionales.meta.MInformacional</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.funcionales.objeto.pauta.Indicacion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.lmmps.logica.core.bloquesDeConstruccion.elementos.complementarios.informacionales.objeto.Documento</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.funcionales.objeto.pauta.Contraindicacion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.lmmps.logica.core.bloquesDeConstruccion.elementos.complementarios.informacionales.objeto.Documento</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.funcionales.objeto.pauta.Indicacion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.lmmps.logica.core.bloquesDeConstruccion.elementos.complementarios.informacionales.objeto.Nota</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.funcionales.objeto.pauta.Contraindicacion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.lmmps.logica.core.bloquesDeConstruccion.elementos.complementarios.informacionales.objeto.Nota</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.funcionales.objeto.pauta.Indicacion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.lmmps.logica.core.bloquesDeConstruccion.elementos.complementarios.informacionales.objeto.Texto</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.funcionales.objeto.pauta.Contraindicacion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.lmmps.logica.core.bloquesDeConstruccion.elementos.complementarios.informacionales.objeto.Texto</fuente>
+  <tipoDeFuente>-1</tipoDeFuente>
+  <objetivo>com.lmmps.logica.core.bloquesDeConstruccion.elementos.fundamentales.funcionales.objeto.pauta.Indicacion</objetivo>
+  <tipoDeObjetivo>-1</tipoDeObjetivo>
+ </relacion>
+</relaciones>

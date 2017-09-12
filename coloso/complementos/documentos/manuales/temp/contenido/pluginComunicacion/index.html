@@ -1,0 +1,384 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<title>Plugin de Comunicaci&oacute;n</title>
+
+<link rel="stylesheet" href="../estilo.css"></head>
+<body topmargin="0">
+<table align="center" border="0" height="95" width="478">
+<tbody>
+<tr>
+<td height="23">
+<p class="Estilo4" align="left">Plugin de
+Comunicación </p></td>
+</tr>
+<tr class="TextoNormal TextoNormal TextoNormal TextoNormal">
+<td height="66" valign="top" width="472">
+<p class="TextoNormal">&nbsp;</p>
+<span class="TextoNormal">El plugin de
+Comunicación&nbsp; es
+parte de la solución UML+ para la realización de
+diagramas según la especificación UML 2.0. Este diagrama genera
+archivos con la extensión ".dco". &nbsp;Este diagrama surge a
+partir de
+la simplificación del Diagrama de Colaboración existente en las
+versiones 1.x de UML.<br>
+<br>
+Mediante
+el Diagrama de Comunicación
+se pueden modelar las interacciones entre diferentes objetos con el fin
+de llevar a cabo una tarea. &nbsp;Este diagrama tiene muchas
+similitudes con el Diagrama de Secuencia, incluyendo artefactos
+similares, pero a diferencia de este, se enfoca en la interrelaci&oacute;n de
+objetos.</span><span class="TextoNormal"></span><br class="TextoNormal">
+<br class="TextoNormal">
+<span class="TextoNormal">Los elementos propios de este
+diagrama son:<br>
+<br>
+</span>
+<ul>
+<li>Actor</li>
+<li>Objeto</li>
+<li>Objeto de Interfaz</li>
+<li>Objeto de Control</li>
+<li>Objeto de Entidad</li>
+<li>Transición</li>
+</ul>
+<span class="TextoNormal"><br>
+Una de las herramientas que posee este plugin
+permite la conversión de los elementos de este diagrama en un Diagrama
+de Secuencia <br>
+<br>
+</span>
+<span style="font-weight: bold;">Actor</span><span class="TextoNormal"><br>
+<br>
+El actor para este caso en particular se ajusta al mismo concepto
+que para otros diagramas y general UML. Un actor es un elemento (sistema,
+persona, mecanismo) que provee de un estimulo para que el sistema
+modelado actúe, para este caso el estimulo es un mensaje que invoca
+una transición. Para crear un actor dentro del diagrama &nbsp;se
+debe
+seleccionar el icono en forma &quot;stickfigure&quot; de la barra específica del marco.<br>
+<br>
+</span><span class="Imagen"><br>
+
+</span>
+<div class="Imagen" style="text-align: center;">
+  <p><img src="Actor1.png" alt=""></p>
+  <p>FIgura 1. Bot&oacute;n de creaci&oacute;n de actor<br>
+    </p>
+</div>
+<span class="TextoNormal"><br>
+<br>
+<br>
+La
+configuración del actor es similar a la de un objeto. Permite asignarle
+un nombre y una clase de la cual toma las propiedades. &nbsp;Para
+asignarle una clase preexistente o agregarle atributos y operaciones al
+actor es necesario que al menos un diagrama de clases se encuentre
+activo en el &nbsp;marco de expresión.<br>
+<br>
+<br>
+<br>
+</span>
+<div class="Imagen" style="text-align: center;">
+  <p><span class="TextoNormal"><br>
+    </span>
+      <span style="font-weight: bold;"></span><span class="TextoNormal"></span><img src="Actor2.png" alt=""></p>
+  <p>Figura 2. Atributos de creaci&oacute;n de actor<br>
+    </p>
+</div>
+<span class="TextoNormal"><br>
+Si
+se decide tomar una clase como plantilla para el objeto se deberá
+seleccionar c&oacute;mo se debe tomar la Fuente de Características , bien sea
+como clase, objeto o combinado.<br>
+<br>
+<br>
+</span>
+<div class="Imagen" style="text-align: center;">
+  <p><img src="Actor3.png" alt=""></p>
+  <p>Figura 3. Fuente de caracter&iacute;sticas para el actor<br>
+    </p>
+</div>
+<span class="TextoNormal"><br>
+El actor terminado instanciando de "ClaseBase", como se observa en la Figura 4.<br>
+<br>
+<br>
+</span>
+<div class="Imagen" style="text-align: center;">
+  <p><img src="Actor4.png" alt=""></p>
+  <p>Figura 4. Representaci&oacute;n de actor<br>
+    </p>
+</div>
+<span class="TextoNormal"><br>
+<br>
+</span><span style="font-weight: bold;">Objeto</span><span class="TextoNormal"><span style="font-weight: bold;"></span><br>
+<br>
+Los objetos son instancias de clases que en alg&uacute;n momento
+interact&uacute;an en la solución particular que el diagrama pretende modelar.
+&nbsp;Para crear un objeto se debe seleccionar &nbsp; el icono
+en forma
+de rectángulo azul de la barra específica del marco.<br>
+<br>
+<br>
+</span><span class="TextoNormal"><br>
+</span>
+<div class="Imagen" style="text-align: center;">
+  <p><img src="Objeto1.png" alt=""></p>
+  <p>Figura 5. Creaci&oacute;n de objeto<br>
+    </p>
+</div>
+<br>
+Los
+objetos tienen los mismos parámetros de creación que&nbsp; los
+actores
+&nbsp;y se pueden asociar de la misma manera a una clase, para
+generar
+un conjunto de atributos y operaciones que éste tiene y puede realizar.<br>
+<br>
+<br>
+<br>
+<div class="Imagen" style="text-align: center;">
+  <p><img src="Objeto2.png" alt=""></p>
+  <p>Figura 6. Datos de creaci&oacute;n del objeto<br>
+    </p>
+</div>
+<br>
+<br>
+<span class="TextoNormal"><br>
+</span>
+<span style="font-weight: bold;">Objeto de Interfaz</span><span class="TextoNormal"><span style="font-weight: bold;"></span><br>
+<br>
+Este es un tipo&nbsp; especial de Objeto </span>&nbsp;que
+se encarga
+generalmente de recibir los mensajes del Actor. Para crear un Objeto
+Interfaz se debe seleccionar el icono&nbsp; en forma de círculo
+lila
+unido con segmento de l&iacute;nea de la barra específica del marco.<br>
+<br>
+<br>
+<br>
+<div class="Imagen" style="text-align: center;">
+  <p><img src="ObjetoInterfaz1.png" alt=""></p>
+  <p>Figura 7. Creaci&oacute;n de un objeto interface<br>
+    </p>
+</div>
+<br>
+<br>
+Debido
+a el objeto interface es realmente un tipo de objeto, los parámetros de
+configuración no varían con respecto a éste. &nbsp;A un Objeto
+Interfaz
+se le puede asociar una clase (como Clase, Objeto o Combinado), de la
+cual tomara sus atributos y operaciones, o puede crearse una clase
+nueva para contener estas propiedades.<br>
+<br>
+<br>
+<br>
+<br>
+<div class="Imagen" style="text-align: center;">
+  <p><img src="ObjetoInterfaz2.png" alt=""></p>
+  <p>Figura 8. Datos para creaci&oacute;n del objeto interface<br>
+    </p>
+</div>
+<br>
+<br>
+<span style="font-weight: bold;">Objeto de Control</span><span class="TextoNormal"><span style="font-weight: bold;"></span><br>
+<br>
+<br>
+El Objeto de Control es un tipo particular de Objeto &nbsp;que
+&nbsp;sirve como mediador entre los Objetos de Interfaz y los demás
+objetos. &nbsp;Para crear un Objeto de Control se debe seleccionar
+el
+icono en forma de círculo rojo de la barra específica del marco.<br>
+</span><br>
+<br>
+<br>
+<div class="Imagen" style="text-align: center;">
+  <p><img src="ObjetoControl1.png" alt=""></p>
+  <p>Figura 9. Creaci&oacute;n de objeto control<br>
+    </p>
+</div>
+<br>
+<br>
+Los
+parámetros para crear un Objeto de Control son iguales que para los
+otros tipos de objetos. En el área de expresión el Objeto de Control se
+verá así.<br>
+<br>
+<br>
+<div class="Imagen" style="text-align: center;">
+  <p><img src="ObjetoControl2.png" alt=""></p>
+  <p>Figura 10. Representaci&oacute;n de objeto control<br>
+    </p>
+</div>
+<br>
+<br>
+<br>
+<span style="font-weight: bold;">Objeto de Entidad</span><span class="TextoNormal"><span style="font-weight: bold;"></span><br>
+<br>
+Este tipo de objetos representan informaci&oacute;n del sistema que debe ser persistida y que puede ser consultada por acciones del actor. Para crear un objeto de comunicación se debe seleccionar
+el icono en forma de círculo azul con segmento de l&iacute;nea en la parte
+inferior,&nbsp; de la barra específica del marco. <br>
+<br>
+<br>
+<br>
+</span>
+<div class="Imagen" style="text-align: center;">
+  <p><img src="ObjetoEntidad1.png" alt=""></p>
+  <p>Figura 11. Creaci&oacute;n de objeto entidad<br>
+    </p>
+</div>
+<span class="TextoNormal"><br>
+<br>
+<br>
+&Eacute;ste
+al ser un tipo de Objeto, posee los mismos parámetros de creación que
+los otros. El Objeto de Entidad visto sobre el diagrama es &nbsp;el
+que
+muestra la imagen.<br>
+<br>
+<br>
+</span>
+<div class="Imagen" style="text-align: center;">
+  <p><img src="ObjetoEntidad2.png" alt=""></p>
+  <p>Figura 12. Representaci&oacute;n del objeto entidad en Coloso<br>
+    </p>
+</div>
+<br>
+<span style="font-weight: bold;">Transición</span><span class="TextoNormal"><span style="font-weight: bold;"></span><br>
+<br>
+Las transiciones indican &nbsp;el paso de mensajes llevado a acabo
+entre un actor y los objetos, o entre los propios objetos. La
+transiciones son dirigidas, por lo que pueden también ser vistas como
+la invocación de métodos por parte del iniciador de la comunicación.
+&nbsp; &nbsp;Para crear una transición se debe seleccionar el
+icono en
+forma de segmento de línea &nbsp;con una flecha en la parte
+superior de
+la barra específica del marco.<br>
+<br>
+<br>
+</span>
+<div class="Imagen" style="text-align: center;">
+  <p><img src="Transicion1.png" alt=""></p>
+  <p>Figura 13. Creaci&oacute;n de una transici&oacute;n <br>
+    </p>
+</div>
+<span class="TextoNormal"><br>
+<br>
+Posteriormente
+se seleccionan los dos objetos que se van a comunicar, empezando por el
+que inicia la comunicación. Para este caso se trata de un actor
+invocando un método de una interfaz.<br>
+<br>
+<br>
+</span>
+<div class="Imagen" style="text-align: center;">
+  <p><img src="Transicion2.png" alt=""></p>
+  <p>Figura 14. Conectando transici&oacute;n entre actor y objeto interface<br>
+    </p>
+</div>
+<span class="TextoNormal"><br>
+<br>
+Una
+vez seleccionadas, se procede a configurar la transición basada en las
+operaciones que serán invocadas. &nbsp;Esta pestaña es id&eacute;ntica a
+la de
+operaciones de una clase en el Plugin de Clases, con la gran diferencia
+que los servicios no pueden ser agregados., sino que estos deben ser
+seleccionados que le proporciona el punto terminal de la comunicación.<br>
+<br>
+En &eacute;ste caso el Actor está iniciando la comunicación e&nbsp;
+invocando
+los métodos del ObjetoInterfaz , éste tiene a su disposición los
+servicios presionarBoton() y operación1().<br>
+<br>
+<br>
+</span>
+<div class="Imagen" style="text-align: center;">
+  <p><img src="Transicion3.png" alt=""></p>
+  <p>Figura 15. Datos de creaci&oacute;n de la transici&oacute;n<br>
+    </p>
+</div>
+<br>
+<br>
+La
+transiciones se pueden dar a cabo en un elemento consigo mismo, para
+hacerlo basta con hacer clic dos veces sobre&nbsp; el mismo
+elemento.<br>
+<br>
+<br>
+<br>
+<div class="Imagen" style="text-align: center;">
+  <p><img src="Transicion4.png" alt=""></p>
+  <p>Figura 16. Transiciones al mismo objeto<br>
+    </p>
+</div>
+<br>
+<br>
+Las
+transiciones están marcadas por un esquema de numeración que permite
+&nbsp;indicar la secuencialidad en el envio de los mensajes, dicha
+secuencialidad es opcional. Para modificar la numeración basta con
+hacer doble clic sobre el numero a modificar y digitar la nueva
+secuencia.<br>
+<br>
+<br>
+<div class="Imagen" style="text-align: center;">
+  <p><img src="Transicion5.png" alt=""></p>
+  <p>Figura 17. Esquema de numeraci&oacute;n para la transiciones<br>
+    </p>
+</div>
+<br>
+<span style="font-weight: bold;">Conversión a
+Diagramas de Secuencia</span><span class="TextoNormal"><span style="font-weight: bold;"></span><br>
+<br>
+Una de las grandes ventajas de los Diagramas de Comunicación es que
+se pueden convertir en Diagramas de Secuencia. Para &eacute;ste caso se
+convertirá el siguiente Diagrama de Comunicación a Secuencia<br>
+<br>
+&nbsp;<br>
+</span>
+<div class="Imagen" style="text-align: center;">
+  <p><img src="Conversion1.png" alt=""></p>
+  <p>Figura 18. Diagrama de secuencia  a convertir <br>
+    </p>
+</div>
+<span class="TextoNormal">&nbsp;</span><br>
+Para convertir el diagrama se debe seleccionar &nbsp;el icono de la
+parte superior &nbsp;del marco de expresión.<br>
+<br>
+<br>
+<br>
+<br>
+<div class="Imagen" style="text-align: center;">
+  <p><img src="Conversion2.png" alt=""></p>
+  <p>Figura 19. Bot&oacute;n de conversi&oacute;n a diagrama de secuencia<br>
+    </p>
+</div>
+<br>
+<br>
+Al
+hacer esto se creará un diagrama con el mismo nombre dentro del
+proyecto, pero con la extensión propia de los Diagramas de Secuencia
+(.dse)<br>
+<br>
+<br>
+<div class="Imagen" style="text-align: center;">
+  <p><img src="Conversion3.png" alt=""></p>
+  <p>Figura 20. Diagrama de secuencia creado<br>
+    </p>
+</div>
+<p><br>
+    <br>
+  La conversión realizada sobre el diagrama de la Figura 18 da como resultado el siguente Diagrama de
+  Secuencia que se observa en la Figura 21.<br>
+  <br>
+  <span class="Imagen"><img src="Conversion4.png" alt=""></span></p>
+<p class="Imagen">Figura 21. Diagrama de secuencia de resultado de la conversi&oacute;n<br>
+</p></td>
+</tr>
+</tbody>
+</table>
+</body></html>

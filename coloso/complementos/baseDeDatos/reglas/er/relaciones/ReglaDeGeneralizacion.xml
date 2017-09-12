@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- regla de ReglaDeGeneralizacion -->
+<relaciones>
+  <relacion tipo="Estandar">
+  <fuente>com.er.logica.core.bloquesDeConstruccion.elementos.estructurales.Clase</fuente>
+  <tipoDeFuente>1</tipoDeFuente>
+  <objetivo>com.er.logica.core.bloquesDeConstruccion.elementos.estructurales.Clase</objetivo>
+  <tipoDeObjetivo>1</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.er.logica.core.bloquesDeConstruccion.elementos.estructurales.Clase</fuente>
+  <tipoDeFuente>2</tipoDeFuente>
+  <objetivo>com.er.logica.core.bloquesDeConstruccion.elementos.estructurales.Clase</objetivo>
+  <tipoDeObjetivo>2</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.er.logica.core.bloquesDeConstruccion.elementos.estructurales.Clase</fuente>
+  <tipoDeFuente>4</tipoDeFuente>
+  <objetivo>com.er.logica.core.bloquesDeConstruccion.elementos.estructurales.Clase</objetivo>
+  <tipoDeObjetivo>4</tipoDeObjetivo>
+ </relacion>
+ <relacion tipo="Estandar">
+  <fuente>com.er.logica.core.bloquesDeConstruccion.elementos.estructurales.Clase</fuente>
+  <tipoDeFuente>8</tipoDeFuente>
+  <objetivo>com.er.logica.core.bloquesDeConstruccion.elementos.estructurales.Clase</objetivo>
+  <tipoDeObjetivo>8</tipoDeObjetivo>
+ </relacion>
+</relaciones>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- estreotipo de bloques -->
+<bloques>  
+  <bloque instancia="ComponenteDeAplicacion" categoria="elemento">
+    <estereotipo>exe</estereotipo>
+    <estereotipo>exe</estereotipo>
+    <estereotipo>tab</estereotipo>
+    <estereotipo>tab</estereotipo>
+    <estereotipo>com</estereotipo>
+    <estereotipo>com</estereotipo>
+    <estereotipo>doc</estereotipo>
+    <estereotipo>doc</estereotipo>
+    <estereotipo>bat</estereotipo>
+    <estereotipo>bat</estereotipo>       
+  </bloque>
+  <bloque instancia="Nodo" categoria="elemento">
+    <estereotipo>dipositivo</estereotipo>
+    <estereotipo>device</estereotipo>
+    <estereotipo>procesador</estereotipo>
+    <estereotipo>proccesor</estereotipo>           
+  </bloque>
+  <bloque instancia="Actividad" categoria="elemento">
+    <estereotipo>hacer</estereotipo>
+    <estereotipo>do</estereotipo>
+    <estereotipo>fin</estereotipo>
+    <estereotipo>end</estereotipo>
+    <estereotipo>comienzo</estereotipo>
+    <estereotipo>begin</estereotipo>           
+  </bloque>
+  <bloque instancia="Artefacto" categoria="elemento">
+    <estereotipo>tab</estereotipo>
+    <estereotipo>tab</estereotipo>
+    <estereotipo>html</estereotipo>
+    <estereotipo>html</estereotipo>
+    <estereotipo>jsp</estereotipo>
+    <estereotipo>jsp</estereotipo>    
+    <estereotipo>doc</estereotipo>
+    <estereotipo>doc</estereotipo>
+    <estereotipo>txt</estereotipo>
+    <estereotipo>txt</estereotipo>
+    <estereotipo>java</estereotipo>
+    <estereotipo>java</estereotipo>
+    <estereotipo>cpp</estereotipo>
+    <estereotipo>cpp</estereotipo>           
+  </bloque>
+  <bloque instancia="Dependencia" categoria="relacion">
+    <estereotipo>instancia de</estereotipo>
+    <estereotipo>instanceof</estereotipo>
+    <estereotipo>atar</estereotipo>
+    <estereotipo>bind</estereotipo>
+    <estereotipo>refinar</estereotipo>
+    <estereotipo>refine</estereotipo>    
+    <estereotipo>instanciar</estereotipo>
+    <estereotipo>instantiate</estereotipo>
+    <estereotipo>supertipo</estereotipo>
+    <estereotipo>powertype</estereotipo>
+    <estereotipo>amigo</estereotipo>
+    <estereotipo>friend</estereotipo>
+    <estereotipo>copia</estereotipo>
+    <estereotipo>copy</estereotipo>    
+    <estereotipo>convertirse</estereotipo>
+    <estereotipo>become</estereotipo>  
+    <estereotipo>clonar</estereotipo>
+    <estereotipo>clone</estereotipo>
+    <estereotipo>eviar</estereotipo>
+    <estereotipo>send</estereotipo>
+    <estereotipo>llamar</estereotipo>
+    <estereotipo>call</estereotipo>    
+    <estereotipo>importar</estereotipo>
+    <estereotipo>import</estereotipo>
+    <estereotipo>acceso</estereotipo>
+    <estereotipo>access</estereotipo>
+    <estereotipo>uso</estereotipo>
+    <estereotipo>use</estereotipo>
+    <estereotipo>extencion</estereotipo>
+    <estereotipo>extends</estereotipo>    
+    <estereotipo>inclucion</estereotipo>
+    <estereotipo>include</estereotipo>               
+  </bloque>
+  <bloque instancia="Asociacion" categoria="relacion">
+    <estereotipo>parte de</estereotipo>
+    <estereotipo>part of</estereotipo>
+    <estereotipo>compuesto de</estereotipo>
+    <estereotipo>composed of</estereotipo>
+    <estereotipo>subregion</estereotipo>
+    <estereotipo>subregion</estereotipo>    
+    <estereotipo>hecho de</estereotipo>
+    <estereotipo>made of</estereotipo>               
+  </bloque>
+  <bloque instancia="Generalizacion" categoria="relacion">
+    <estereotipo>extiende</estereotipo>
+    <estereotipo>extends</estereotipo>                   
+  </bloque>
+  <bloque instancia="Realizacion" categoria="relacion">
+    <estereotipo>implementacion</estereotipo>
+    <estereotipo>implements</estereotipo>                   
+  </bloque>
+</bloques>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
