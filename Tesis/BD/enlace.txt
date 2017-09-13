@@ -1,1 +1,0 @@
-queleo.cbr85z3uew2o.us-east-2.rds.amazonaws.com:3306
